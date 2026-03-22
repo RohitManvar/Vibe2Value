@@ -1,0 +1,2606 @@
+[
+  {
+    "username": "hiker_adventures_zach",
+    "bio": "Outdoor adventure enthusiast sharing hiking tips, trail guides, and nature photography from across the US and beyond.",
+    "content_style_tags": ["Sports & Outdoors", "Travel", "Photography", "Health"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 18500,
+      "avg_views_30d": 52000,
+      "engagement_rate": 0.062,
+      "gpm": 0.36,
+      "demographics": { "major_gender": "MALE", "gender_pct": 68, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "cozy_home_with_lisa",
+    "bio": "Interior designer and home decor lover helping you create beautiful, affordable spaces. From small apartments to full home makeovers.",
+    "content_style_tags": ["Home", "DIY", "Lifestyle", "Design"],
+    "projected_score": 92,
+    "metrics": {
+      "follower_count": 380000,
+      "total_gmv_30d": 42000,
+      "avg_views_30d": 89000,
+      "engagement_rate": 0.071,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "minimalist_martha",
+    "bio": "Minimalist living coach. Tips on decluttering, small-space living, and affordable home styling that makes every square foot count.",
+    "content_style_tags": ["Home", "Lifestyle", "Minimalism", "DIY"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 310000,
+      "total_gmv_30d": 35000,
+      "avg_views_30d": 74000,
+      "engagement_rate": 0.068,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 82, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "budget_decor_queen",
+    "bio": "Proving you don't need a big budget to have a beautiful home. Thrift flips, IKEA hacks, and DIY decor on a dime.",
+    "content_style_tags": ["Home", "DIY", "Budget", "Fashion"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 420000,
+      "total_gmv_30d": 51000,
+      "avg_views_30d": 103000,
+      "engagement_rate": 0.073,
+      "gpm": 0.50,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 85, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "glow_up_with_grace",
+    "bio": "Beauty and skincare creator sharing honest reviews, tutorials, and affordable finds. Helping you glow from the inside out.",
+    "content_style_tags": ["Beauty", "Skincare", "Fashion", "Lifestyle"],
+    "projected_score": 94,
+    "metrics": {
+      "follower_count": 560000,
+      "total_gmv_30d": 67000,
+      "avg_views_30d": 142000,
+      "engagement_rate": 0.078,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 91, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "fit_with_frank",
+    "bio": "Certified personal trainer. Home workouts, gym tips, and nutrition advice to help you hit your fitness goals without the fluff.",
+    "content_style_tags": ["Sports & Outdoors", "Health", "Fitness", "Nutrition"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 290000,
+      "total_gmv_30d": 29000,
+      "avg_views_30d": 68000,
+      "engagement_rate": 0.065,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "MALE", "gender_pct": 72, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "skin_science_sara",
+    "bio": "Esthetician and skincare educator. Breaking down ingredients, routines, and product reviews with science-backed honesty.",
+    "content_style_tags": ["Beauty", "Skincare", "Health", "Education"],
+    "projected_score": 93,
+    "metrics": {
+      "follower_count": 475000,
+      "total_gmv_30d": 58000,
+      "avg_views_30d": 118000,
+      "engagement_rate": 0.076,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 88, "age_ranges": ["18-24", "25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "apartment_therapy_alex",
+    "bio": "NYC-based design enthusiast turning cramped apartments into dream spaces. Affordable solutions for small living.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 340000,
+      "total_gmv_30d": 38500,
+      "avg_views_30d": 82000,
+      "engagement_rate": 0.069,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 76, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "tech_trends_tim",
+    "bio": "Tech reviewer and gadget enthusiast. Honest reviews on the latest smart home devices, phones, and gear.",
+    "content_style_tags": ["Tech", "Smart Home", "Gadgets", "Reviews"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 198000,
+      "total_gmv_30d": 22000,
+      "avg_views_30d": 48000,
+      "engagement_rate": 0.058,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "MALE", "gender_pct": 74, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "meal_prep_with_maya",
+    "bio": "Nutritionist and food creator helping busy people eat healthy on a budget. Weekly meal preps, easy recipes, and grocery guides.",
+    "content_style_tags": ["Food", "Health", "Nutrition", "Lifestyle"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 220000,
+      "total_gmv_30d": 25000,
+      "avg_views_30d": 55000,
+      "engagement_rate": 0.061,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 77, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "style_on_budget_jen",
+    "bio": "Fashion creator proving you can look amazing without breaking the bank. Thrift finds, outfit ideas, and trend breakdowns.",
+    "content_style_tags": ["Fashion", "Beauty", "Lifestyle", "Budget"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 410000,
+      "total_gmv_30d": 49000,
+      "avg_views_30d": 96000,
+      "engagement_rate": 0.072,
+      "gpm": 0.51,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 87, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "run_with_ryan",
+    "bio": "Marathon runner and coach sharing training plans, gear reviews, and motivation for runners of all levels.",
+    "content_style_tags": ["Sports & Outdoors", "Health", "Fitness", "Running"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 175000,
+      "total_gmv_30d": 19500,
+      "avg_views_30d": 42000,
+      "engagement_rate": 0.057,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "MALE", "gender_pct": 61, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "zero_effort_creator",
+    "bio": "Just started posting. No niche yet. Random content about nothing in particular.",
+    "content_style_tags": ["Lifestyle"],
+    "projected_score": 61,
+    "metrics": {
+      "follower_count": 1200,
+      "total_gmv_30d": 0,
+      "avg_views_30d": 800,
+      "engagement_rate": 0.012,
+      "gpm": 0.0,
+      "demographics": { "major_gender": "MALE", "gender_pct": 55, "age_ranges": ["18-24"] }
+    }
+  },
+  {
+    "username": "home_hacks_hannah",
+    "bio": "DIY home improvement and organization hacks for renters and first-time homeowners. Making your space work smarter.",
+    "content_style_tags": ["Home", "DIY", "Organization", "Lifestyle"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 270000,
+      "total_gmv_30d": 32000,
+      "avg_views_30d": 65000,
+      "engagement_rate": 0.066,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 81, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "outdoor_gear_oliver",
+    "bio": "Adventure gear tester and outdoor enthusiast. Honest reviews on camping, hiking, and outdoor equipment.",
+    "content_style_tags": ["Sports & Outdoors", "Travel", "Gear", "Reviews"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 155000,
+      "total_gmv_30d": 16000,
+      "avg_views_30d": 38000,
+      "engagement_rate": 0.055,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "MALE", "gender_pct": 70, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "makeup_maestro_mia",
+    "bio": "Professional makeup artist sharing tutorials, product picks, and behind-the-scenes from the beauty industry.",
+    "content_style_tags": ["Beauty", "Fashion", "Makeup", "Lifestyle"],
+    "projected_score": 95,
+    "metrics": {
+      "follower_count": 620000,
+      "total_gmv_30d": 78000,
+      "avg_views_30d": 158000,
+      "engagement_rate": 0.081,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 93, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "smart_home_steve",
+    "bio": "Smart home automation expert. Helping homeowners integrate tech for comfort, energy savings, and security.",
+    "content_style_tags": ["Home", "Tech", "Smart Home", "DIY"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 230000,
+      "total_gmv_30d": 27000,
+      "avg_views_30d": 58000,
+      "engagement_rate": 0.063,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "MALE", "gender_pct": 69, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "yoga_with_yara",
+    "bio": "Certified yoga instructor sharing daily flows, mindfulness practices, and wellness tips for a balanced life.",
+    "content_style_tags": ["Health", "Fitness", "Wellness", "Lifestyle"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 210000,
+      "total_gmv_30d": 23500,
+      "avg_views_30d": 52000,
+      "engagement_rate": 0.060,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 84, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "ghost_creator_xyz",
+    "bio": "Experimental content. Rarely posts.",
+    "content_style_tags": ["Lifestyle"],
+    "projected_score": 60,
+    "metrics": {
+      "follower_count": 450,
+      "total_gmv_30d": 0,
+      "avg_views_30d": 200,
+      "engagement_rate": 0.008,
+      "gpm": 0.0,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 52, "age_ranges": ["18-24"] }
+    }
+  },
+  {
+    "username": "fashionista_faye",
+    "bio": "High fashion meets street style. Seasonal lookbooks, brand collabs, and style inspiration for every occasion.",
+    "content_style_tags": ["Fashion", "Beauty", "Lifestyle", "Luxury"],
+    "projected_score": 96,
+    "metrics": {
+      "follower_count": 710000,
+      "total_gmv_30d": 89000,
+      "avg_views_30d": 178000,
+      "engagement_rate": 0.083,
+      "gpm": 0.50,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 89, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "small_space_sophia",
+    "bio": "Interior stylist specializing in compact apartments and studio living. Smart furniture, multi-use decor, and budget-friendly tips.",
+    "content_style_tags": ["Home", "Design", "DIY", "Lifestyle"],
+    "projected_score": 93,
+    "metrics": {
+      "follower_count": 455000,
+      "total_gmv_30d": 56000,
+      "avg_views_30d": 112000,
+      "engagement_rate": 0.075,
+      "gpm": 0.50,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 83, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "decor_on_a_dime_dana",
+    "bio": "Home decor creator on a mission: beautiful rooms, tiny budgets. IKEA hacks, thrift store finds, and weekend DIY projects.",
+    "content_style_tags": ["Home", "DIY", "Budget", "Design"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 320000,
+      "total_gmv_30d": 39000,
+      "avg_views_30d": 78000,
+      "engagement_rate": 0.070,
+      "gpm": 0.50,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "plant_parent_priya",
+    "bio": "Plant lover and indoor gardening enthusiast. Houseplant care tips, urban jungle decor, and how to keep your green babies thriving.",
+    "content_style_tags": ["Home", "Lifestyle", "Gardening", "Wellness"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 190000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 46000,
+      "engagement_rate": 0.059,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 78, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "renter_friendly_rachel",
+    "bio": "Helping renters make any apartment feel like home — no damage deposits lost. Removable wallpaper, temporary fixes, and rental-safe decor.",
+    "content_style_tags": ["Home", "DIY", "Lifestyle", "Design"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 265000,
+      "total_gmv_30d": 30000,
+      "avg_views_30d": 63000,
+      "engagement_rate": 0.065,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "ikea_hacks_ivan",
+    "bio": "Transforming IKEA basics into custom furniture pieces. Step-by-step tutorials, cost breakdowns, and before/after reveals.",
+    "content_style_tags": ["Home", "DIY", "Design", "Budget"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 26000,
+      "avg_views_30d": 54000,
+      "engagement_rate": 0.062,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "MALE", "gender_pct": 58, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "cozy_corner_claire",
+    "bio": "Creating cozy, hygge-inspired spaces in any home. Soft lighting, warm textures, and affordable home accessories.",
+    "content_style_tags": ["Home", "Lifestyle", "Design", "Wellness"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 295000,
+      "total_gmv_30d": 33000,
+      "avg_views_30d": 71000,
+      "engagement_rate": 0.067,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 82, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "thrift_and_style_tina",
+    "bio": "Sustainable home decor through thrifting and upcycling. Finding hidden gems at garage sales and turning them into statement pieces.",
+    "content_style_tags": ["Home", "DIY", "Sustainable", "Budget"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 168000,
+      "total_gmv_30d": 17000,
+      "avg_views_30d": 41000,
+      "engagement_rate": 0.056,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 77, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "urban_jungle_uma",
+    "bio": "Plant-based home styling and biophilic design. Bringing the outdoors in with creative plant placement and natural elements.",
+    "content_style_tags": ["Home", "Gardening", "Design", "Lifestyle"],
+    "projected_score": 82,
+    "metrics": {
+      "follower_count": 142000,
+      "total_gmv_30d": 14500,
+      "avg_views_30d": 35000,
+      "engagement_rate": 0.053,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 75, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "boho_home_brooke",
+    "bio": "Bohemian home decor enthusiast. Macrame, rattan, earthy tones, and eclectic finds for a free-spirited home aesthetic.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 248000,
+      "total_gmv_30d": 28500,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 81, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "kitchen_reno_kevin",
+    "bio": "Budget kitchen renovations and upgrades. Painting cabinets, updating hardware, and kitchen decor on a homeowner's budget.",
+    "content_style_tags": ["Home", "DIY", "Design", "Budget"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 185000,
+      "total_gmv_30d": 20000,
+      "avg_views_30d": 45000,
+      "engagement_rate": 0.058,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 55, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "bedroom_bliss_bella",
+    "bio": "Bedroom makeover specialist. Creating restful, beautiful bedrooms on any budget — from basic refresh to full transformation.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 395000,
+      "total_gmv_30d": 47000,
+      "avg_views_30d": 94000,
+      "engagement_rate": 0.072,
+      "gpm": 0.50,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 84, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "farmhouse_feels_fiona",
+    "bio": "Modern farmhouse decor and rustic home styling. Shiplap, neutral tones, and timeless pieces that elevate any space affordably.",
+    "content_style_tags": ["Home", "Design", "DIY", "Lifestyle"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 272000,
+      "total_gmv_30d": 31500,
+      "avg_views_30d": 66000,
+      "engagement_rate": 0.066,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "organize_with_omar",
+    "bio": "Professional organizer helping you declutter and create functional, beautiful spaces. Storage solutions for every room and budget.",
+    "content_style_tags": ["Home", "Organization", "Lifestyle", "DIY"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 240000,
+      "total_gmv_30d": 27500,
+      "avg_views_30d": 58000,
+      "engagement_rate": 0.063,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 73, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "vintage_vibes_violet",
+    "bio": "Vintage and antique home decor lover. Sourcing unique pieces from estate sales, flea markets, and online auctions.",
+    "content_style_tags": ["Home", "Vintage", "Design", "Lifestyle"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 158000,
+      "total_gmv_30d": 15500,
+      "avg_views_30d": 38500,
+      "engagement_rate": 0.055,
+      "gpm": 0.40,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 76, "age_ranges": ["25-34", "35-44", "45-54"] }
+    }
+  },
+  {
+    "username": "studio_apartment_sam",
+    "bio": "Living proof that small spaces can be stunning. Studio apartment tours, multi-functional furniture, and clever storage hacks.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Budget"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 330000,
+      "total_gmv_30d": 37000,
+      "avg_views_30d": 80000,
+      "engagement_rate": 0.069,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 77, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "wellness_home_wendy",
+    "bio": "Creating wellness-centered home environments. Feng shui principles, calming spaces, and mindful decor choices.",
+    "content_style_tags": ["Home", "Wellness", "Lifestyle", "Design"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 22500,
+      "avg_views_30d": 47000,
+      "engagement_rate": 0.059,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 82, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "diy_decor_duke",
+    "bio": "Weekend DIY warrior turning raw materials into stunning home decor. Woodworking, painting, and upcycling tutorials for beginners.",
+    "content_style_tags": ["Home", "DIY", "Design", "Woodworking"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 208000,
+      "total_gmv_30d": 24000,
+      "avg_views_30d": 51000,
+      "engagement_rate": 0.061,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "MALE", "gender_pct": 60, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "colorful_casa_carmen",
+    "bio": "Bold color enthusiast transforming bland spaces with paint, art, and vibrant decor. Fearless home styling for the brave at heart.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 172000,
+      "total_gmv_30d": 18000,
+      "avg_views_30d": 43000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "pantry_perfection_petra",
+    "bio": "Kitchen organization and pantry styling obsessive. Decanting, labeling, and creating functional beautiful kitchens on a budget.",
+    "content_style_tags": ["Home", "Organization", "Lifestyle", "Food"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 235000,
+      "total_gmv_30d": 27000,
+      "avg_views_30d": 57000,
+      "engagement_rate": 0.063,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 83, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "luxury_for_less_lara",
+    "bio": "High-end home decor looks on a real person's budget. Designer dupes, affordable alternatives, and smart shopping guides.",
+    "content_style_tags": ["Home", "Design", "Budget", "Lifestyle"],
+    "projected_score": 92,
+    "metrics": {
+      "follower_count": 440000,
+      "total_gmv_30d": 53000,
+      "avg_views_30d": 108000,
+      "engagement_rate": 0.074,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 81, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "mid_century_marco",
+    "bio": "Mid-century modern design enthusiast. Sourcing authentic pieces, styling tips, and how to incorporate vintage MCM into modern homes.",
+    "content_style_tags": ["Home", "Design", "Vintage", "Lifestyle"],
+    "projected_score": 82,
+    "metrics": {
+      "follower_count": 138000,
+      "total_gmv_30d": 13500,
+      "avg_views_30d": 34000,
+      "engagement_rate": 0.053,
+      "gpm": 0.40,
+      "demographics": { "major_gender": "MALE", "gender_pct": 57, "age_ranges": ["25-34", "35-44", "45-54"] }
+    }
+  },
+  {
+    "username": "fitness_foodie_felix",
+    "bio": "Combining fitness and nutrition for peak performance. Meal plans, workout routines, and healthy recipes for active lifestyles.",
+    "content_style_tags": ["Health", "Fitness", "Food", "Nutrition"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 250000,
+      "total_gmv_30d": 28000,
+      "avg_views_30d": 61000,
+      "engagement_rate": 0.064,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "MALE", "gender_pct": 65, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "strength_with_stella",
+    "bio": "Women's strength training coach. Debunking myths, building confidence, and helping women lift heavy and live strong.",
+    "content_style_tags": ["Fitness", "Health", "Sports & Outdoors", "Wellness"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 355000,
+      "total_gmv_30d": 41000,
+      "avg_views_30d": 85000,
+      "engagement_rate": 0.070,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 78, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "vegan_victor",
+    "bio": "Plant-based athlete and chef. High-protein vegan recipes, sports nutrition guidance, and meal prep for active vegans.",
+    "content_style_tags": ["Food", "Health", "Fitness", "Nutrition"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 195000,
+      "total_gmv_30d": 21500,
+      "avg_views_30d": 49000,
+      "engagement_rate": 0.059,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 58, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "cycling_coach_carlos",
+    "bio": "Professional cycling coach. Training plans, bike reviews, nutrition for endurance sports, and route recommendations.",
+    "content_style_tags": ["Sports & Outdoors", "Fitness", "Health", "Travel"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 160000,
+      "total_gmv_30d": 17000,
+      "avg_views_30d": 40000,
+      "engagement_rate": 0.055,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "MALE", "gender_pct": 71, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "mindful_movement_mona",
+    "bio": "Pilates instructor and mindful movement advocate. Low-impact workouts, breathwork, and recovery techniques for busy women.",
+    "content_style_tags": ["Fitness", "Health", "Wellness", "Lifestyle"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 278000,
+      "total_gmv_30d": 31000,
+      "avg_views_30d": 67000,
+      "engagement_rate": 0.066,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 85, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "sports_science_sean",
+    "bio": "Sports scientist breaking down athletic performance, recovery, and training theory for everyday athletes.",
+    "content_style_tags": ["Sports & Outdoors", "Health", "Education", "Fitness"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 178000,
+      "total_gmv_30d": 18500,
+      "avg_views_30d": 44000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "MALE", "gender_pct": 67, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "crossfit_coach_chloe",
+    "bio": "CrossFit Level 3 coach. WOD programming, scaling for beginners, nutrition timing, and community-driven fitness.",
+    "content_style_tags": ["Fitness", "Sports & Outdoors", "Health", "Nutrition"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 212000,
+      "total_gmv_30d": 24500,
+      "avg_views_30d": 52000,
+      "engagement_rate": 0.062,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 62, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "swim_with_sophie",
+    "bio": "Competitive swimmer and swim coach. Training techniques, open water swimming, triathlon prep, and gear reviews.",
+    "content_style_tags": ["Sports & Outdoors", "Fitness", "Health", "Reviews"],
+    "projected_score": 81,
+    "metrics": {
+      "follower_count": 128000,
+      "total_gmv_30d": 12500,
+      "avg_views_30d": 32000,
+      "engagement_rate": 0.052,
+      "gpm": 0.39,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 59, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "basketball_breakdown_brad",
+    "bio": "Former NCAA basketball player breaking down game film, skills training, and NBA analysis for serious ballers.",
+    "content_style_tags": ["Sports & Outdoors", "Education", "Fitness", "Gaming"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 195000,
+      "total_gmv_30d": 20500,
+      "avg_views_30d": 49000,
+      "engagement_rate": 0.059,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "MALE", "gender_pct": 78, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "beauty_unfiltered_uma",
+    "bio": "Inclusive beauty creator celebrating all skin types and tones. No filter, no fakery — just honest product reviews and real results.",
+    "content_style_tags": ["Beauty", "Skincare", "Lifestyle", "Wellness"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 415000,
+      "total_gmv_30d": 50000,
+      "avg_views_30d": 98000,
+      "engagement_rate": 0.073,
+      "gpm": 0.51,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 90, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "haircare_hero_helen",
+    "bio": "Trichologist and haircare educator. Scalp health, growth tips, product reviews, and routines for every hair type.",
+    "content_style_tags": ["Beauty", "Health", "Lifestyle", "Education"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 302000,
+      "total_gmv_30d": 36000,
+      "avg_views_30d": 73000,
+      "engagement_rate": 0.068,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 88, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "nailart_nina",
+    "bio": "Nail artist and nail care educator. DIY nail tutorials, gel reviews, nail health tips, and trending nail art designs.",
+    "content_style_tags": ["Beauty", "Fashion", "Lifestyle", "DIY"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 255000,
+      "total_gmv_30d": 29500,
+      "avg_views_30d": 62000,
+      "engagement_rate": 0.064,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 92, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "fragrance_fan_freddie",
+    "bio": "Perfume collector and fragrance reviewer. Designer vs. niche, blind buys, and the art of smelling incredible on a budget.",
+    "content_style_tags": ["Beauty", "Lifestyle", "Fashion", "Reviews"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 152000,
+      "total_gmv_30d": 16500,
+      "avg_views_30d": 38000,
+      "engagement_rate": 0.055,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "MALE", "gender_pct": 53, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "dermadoc_diana",
+    "bio": "Board-certified dermatologist sharing evidence-based skincare advice. Ingredient breakdowns, myth-busting, and clinical insights.",
+    "content_style_tags": ["Beauty", "Skincare", "Health", "Education"],
+    "projected_score": 96,
+    "metrics": {
+      "follower_count": 720000,
+      "total_gmv_30d": 91000,
+      "avg_views_30d": 182000,
+      "engagement_rate": 0.084,
+      "gpm": 0.50,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 86, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "clean_beauty_cora",
+    "bio": "Clean and green beauty advocate. Non-toxic skincare, natural ingredients, and eco-friendly beauty routines that actually work.",
+    "content_style_tags": ["Beauty", "Skincare", "Sustainable", "Health"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 280000,
+      "total_gmv_30d": 32500,
+      "avg_views_30d": 68000,
+      "engagement_rate": 0.066,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 89, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "mens_grooming_max",
+    "bio": "Men's grooming and skincare for the modern man. Beard care, skincare routines, and honest product reviews for guys.",
+    "content_style_tags": ["Beauty", "Fashion", "Lifestyle", "Health"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 198000,
+      "total_gmv_30d": 22000,
+      "avg_views_30d": 49000,
+      "engagement_rate": 0.059,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "MALE", "gender_pct": 76, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "sustainable_style_stella",
+    "bio": "Sustainable fashion advocate and conscious consumer. Ethical brands, capsule wardrobes, and how to shop with intention.",
+    "content_style_tags": ["Fashion", "Sustainable", "Lifestyle", "Education"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 27000,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 83, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "streetwear_samson",
+    "bio": "Streetwear curator and sneakerhead. Drops, grails, outfit of the day, and the culture behind urban fashion.",
+    "content_style_tags": ["Fashion", "Lifestyle", "Streetwear", "Culture"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 305000,
+      "total_gmv_30d": 35500,
+      "avg_views_30d": 74000,
+      "engagement_rate": 0.068,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "MALE", "gender_pct": 69, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "capsule_wardrobe_kate",
+    "bio": "Building intentional wardrobes that work harder. 10 items, 30 outfits — practical minimalist style for real life.",
+    "content_style_tags": ["Fashion", "Lifestyle", "Minimalism", "Budget"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 275000,
+      "total_gmv_30d": 31000,
+      "avg_views_30d": 67000,
+      "engagement_rate": 0.066,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 84, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "luxury_look_leo",
+    "bio": "Affordable luxury fashion — how to look like you spent thousands when you didn't. Dupes, sale finds, and investment pieces.",
+    "content_style_tags": ["Fashion", "Lifestyle", "Luxury", "Budget"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 350000,
+      "total_gmv_30d": 41000,
+      "avg_views_30d": 84000,
+      "engagement_rate": 0.070,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "MALE", "gender_pct": 52, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "travel_on_points_petra",
+    "bio": "Travel hacker and points guru. Flying business class for economy prices, credit card optimization, and budget travel secrets.",
+    "content_style_tags": ["Travel", "Lifestyle", "Finance", "Education"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 268000,
+      "total_gmv_30d": 30000,
+      "avg_views_30d": 65000,
+      "engagement_rate": 0.065,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 62, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "solo_travel_santiago",
+    "bio": "Solo travel advocate and safety guide. How to travel alone, meet people, and have transformative experiences anywhere in the world.",
+    "content_style_tags": ["Travel", "Lifestyle", "Adventure", "Education"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 218000,
+      "total_gmv_30d": 24000,
+      "avg_views_30d": 54000,
+      "engagement_rate": 0.061,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 56, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "budget_backpacker_bianca",
+    "bio": "World traveler on $40/day. Hostels, local food, free activities, and how to see the world without breaking the bank.",
+    "content_style_tags": ["Travel", "Budget", "Lifestyle", "Adventure"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 172000,
+      "total_gmv_30d": 18000,
+      "avg_views_30d": 43000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 60, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "luxury_travel_lucas",
+    "bio": "Five-star travel experiences and resort reviews. Private islands, overwater bungalows, and the art of traveling in ultimate comfort.",
+    "content_style_tags": ["Travel", "Luxury", "Lifestyle", "Reviews"],
+    "projected_score": 92,
+    "metrics": {
+      "follower_count": 450000,
+      "total_gmv_30d": 54000,
+      "avg_views_30d": 110000,
+      "engagement_rate": 0.074,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "MALE", "gender_pct": 54, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "foodie_photographer_fran",
+    "bio": "Food photographer and travel foodie. Exploring culinary scenes around the world one plate at a time.",
+    "content_style_tags": ["Food", "Travel", "Photography", "Lifestyle"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 27500,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 65, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "van_life_vince",
+    "bio": "Full-time van lifer documenting life on the road. Van builds, boondocking spots, remote work setups, and #vanlife reality.",
+    "content_style_tags": ["Travel", "Lifestyle", "Adventure", "DIY"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 195000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 49000,
+      "engagement_rate": 0.059,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "MALE", "gender_pct": 58, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "family_travel_fiona",
+    "bio": "Family travel blogger making adventures accessible for parents. Kid-friendly destinations, travel tips, and making memories.",
+    "content_style_tags": ["Travel", "Lifestyle", "Family", "Education"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 210000,
+      "total_gmv_30d": 23000,
+      "avg_views_30d": 52000,
+      "engagement_rate": 0.061,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 71, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "cooking_with_carlos",
+    "bio": "Home chef sharing authentic Latin American recipes, cooking techniques, and the stories behind traditional dishes.",
+    "content_style_tags": ["Food", "Lifestyle", "Culture", "Education"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 285000,
+      "total_gmv_30d": 32000,
+      "avg_views_30d": 70000,
+      "engagement_rate": 0.067,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "MALE", "gender_pct": 56, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "baking_with_beth",
+    "bio": "Professional pastry chef bringing bakery-quality recipes home. Bread, cakes, pastries, and everything in between.",
+    "content_style_tags": ["Food", "Lifestyle", "DIY", "Education"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 345000,
+      "total_gmv_30d": 40000,
+      "avg_views_30d": 83000,
+      "engagement_rate": 0.070,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 74, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "street_food_stan",
+    "bio": "Street food hunter documenting the best vendors, hidden stalls, and local bites across cities worldwide.",
+    "content_style_tags": ["Food", "Travel", "Culture", "Lifestyle"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 20500,
+      "avg_views_30d": 48000,
+      "engagement_rate": 0.059,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "MALE", "gender_pct": 58, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "keto_kitchen_kira",
+    "bio": "Keto and low-carb chef making the diet delicious. Easy recipes, meal plans, and science-backed guidance for ketogenic living.",
+    "content_style_tags": ["Food", "Health", "Nutrition", "Lifestyle"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 24000,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.061,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 67, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "restaurant_reviews_rob",
+    "bio": "Food critic and restaurant reviewer covering fine dining, hidden gems, and where locals really eat in major cities.",
+    "content_style_tags": ["Food", "Lifestyle", "Travel", "Reviews"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 168000,
+      "total_gmv_30d": 17500,
+      "avg_views_30d": 42000,
+      "engagement_rate": 0.056,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "MALE", "gender_pct": 55, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "finance_freedom_fiona",
+    "bio": "Personal finance educator helping millennials pay off debt, build savings, and achieve financial independence.",
+    "content_style_tags": ["Finance", "Education", "Lifestyle", "Wellness"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 390000,
+      "total_gmv_30d": 46000,
+      "avg_views_30d": 93000,
+      "engagement_rate": 0.072,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 66, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "invest_with_ivan",
+    "bio": "Stock market educator and long-term investing advocate. ETFs, index funds, and building wealth for ordinary people.",
+    "content_style_tags": ["Finance", "Education", "Lifestyle", "Tech"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 315000,
+      "total_gmv_30d": 36000,
+      "avg_views_30d": 76000,
+      "engagement_rate": 0.068,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "MALE", "gender_pct": 64, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "crypto_clarity_chris",
+    "bio": "Demystifying crypto and blockchain for everyday investors. No hype, no scams — just clear explanations and honest analysis.",
+    "content_style_tags": ["Finance", "Tech", "Education", "Lifestyle"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 222000,
+      "total_gmv_30d": 25000,
+      "avg_views_30d": 55000,
+      "engagement_rate": 0.062,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "MALE", "gender_pct": 71, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "side_hustle_sarah",
+    "bio": "Building multiple income streams from home. Freelancing, e-commerce, digital products, and real strategies that actually work.",
+    "content_style_tags": ["Finance", "Lifestyle", "Education", "Tech"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 340000,
+      "total_gmv_30d": 40000,
+      "avg_views_30d": 82000,
+      "engagement_rate": 0.070,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 62, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "ai_explorer_alex",
+    "bio": "AI enthusiast and tech educator. Breaking down machine learning, generative AI tools, and the future of technology for non-techies.",
+    "content_style_tags": ["Tech", "Education", "Lifestyle", "AI"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 405000,
+      "total_gmv_30d": 48000,
+      "avg_views_30d": 97000,
+      "engagement_rate": 0.073,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "MALE", "gender_pct": 67, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "dev_diary_dan",
+    "bio": "Software engineer sharing the real journey of a developer. Coding tutorials, career advice, tech interviews, and developer life.",
+    "content_style_tags": ["Tech", "Education", "Lifestyle", "Career"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 275000,
+      "total_gmv_30d": 30500,
+      "avg_views_30d": 67000,
+      "engagement_rate": 0.065,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "MALE", "gender_pct": 73, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "gadget_guru_gina",
+    "bio": "Consumer electronics reviewer and unboxing creator. Smartphones, laptops, wearables — honest ratings so you don't waste money.",
+    "content_style_tags": ["Tech", "Reviews", "Lifestyle", "Gadgets"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 248000,
+      "total_gmv_30d": 28000,
+      "avg_views_30d": 61000,
+      "engagement_rate": 0.064,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 57, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "smarthome_setup_sam",
+    "bio": "Building the perfect smart home ecosystem. Automations, device integrations, and turning your home into a tech-powered haven.",
+    "content_style_tags": ["Tech", "Home", "Smart Home", "DIY"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 298000,
+      "total_gmv_30d": 34000,
+      "avg_views_30d": 72000,
+      "engagement_rate": 0.067,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "MALE", "gender_pct": 72, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "gaming_with_grace",
+    "bio": "Female gamer and content creator. Gaming reviews, industry commentary, and building inclusive gaming communities.",
+    "content_style_tags": ["Gaming", "Lifestyle", "Tech", "Entertainment"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 248000,
+      "total_gmv_30d": 27500,
+      "avg_views_30d": 61000,
+      "engagement_rate": 0.064,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 58, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "retro_gaming_rex",
+    "bio": "Retro gaming historian and collector. From Atari to N64, exploring gaming history, hidden gems, and classic reviews.",
+    "content_style_tags": ["Gaming", "Culture", "Tech", "Education"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 155000,
+      "total_gmv_30d": 15000,
+      "avg_views_30d": 38000,
+      "engagement_rate": 0.055,
+      "gpm": 0.39,
+      "demographics": { "major_gender": "MALE", "gender_pct": 76, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "esports_eagle_ed",
+    "bio": "Esports analyst and competitive gaming coach. Pro play breakdowns, meta analysis, and climbing ranked in FPS games.",
+    "content_style_tags": ["Gaming", "Sports & Outdoors", "Tech", "Education"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 195000,
+      "total_gmv_30d": 20000,
+      "avg_views_30d": 50000,
+      "engagement_rate": 0.059,
+      "gpm": 0.40,
+      "demographics": { "major_gender": "MALE", "gender_pct": 80, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "indie_dev_irene",
+    "bio": "Indie game developer documenting the journey of building games solo. Game dev tutorials, devlogs, and game design theory.",
+    "content_style_tags": ["Gaming", "Tech", "Education", "Creative"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 172000,
+      "total_gmv_30d": 17000,
+      "avg_views_30d": 43000,
+      "engagement_rate": 0.057,
+      "gpm": 0.40,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 54, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "mental_health_marcus",
+    "bio": "Licensed therapist making mental health accessible. Anxiety, depression, therapy tips, and destigmatizing mental health care.",
+    "content_style_tags": ["Health", "Wellness", "Education", "Lifestyle"],
+    "projected_score": 93,
+    "metrics": {
+      "follower_count": 480000,
+      "total_gmv_30d": 57000,
+      "avg_views_30d": 120000,
+      "engagement_rate": 0.077,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 70, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "sleep_science_simone",
+    "bio": "Sleep researcher and wellness educator. The science of better sleep, bedtime routines, and creating the perfect sleep environment.",
+    "content_style_tags": ["Health", "Wellness", "Education", "Lifestyle"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 242000,
+      "total_gmv_30d": 26500,
+      "avg_views_30d": 59000,
+      "engagement_rate": 0.063,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 72, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "productivity_pro_pat",
+    "bio": "Productivity systems and time management coach. Second brain, time blocking, deep work, and building habits that stick.",
+    "content_style_tags": ["Lifestyle", "Education", "Tech", "Wellness"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 305000,
+      "total_gmv_30d": 34500,
+      "avg_views_30d": 74000,
+      "engagement_rate": 0.068,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "MALE", "gender_pct": 60, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "self_love_selena",
+    "bio": "Body positivity and self-love advocate. Embracing your authentic self, building confidence, and breaking free from toxic beauty standards.",
+    "content_style_tags": ["Wellness", "Lifestyle", "Beauty", "Education"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 418000,
+      "total_gmv_30d": 49500,
+      "avg_views_30d": 100000,
+      "engagement_rate": 0.073,
+      "gpm": 0.50,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 87, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "parenting_with_paul",
+    "bio": "Dad blogger and parenting educator. Evidence-based parenting, toddler activities, and keeping your sanity while raising kids.",
+    "content_style_tags": ["Lifestyle", "Education", "Wellness", "Family"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 47000,
+      "engagement_rate": 0.059,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "MALE", "gender_pct": 52, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "guitar_lessons_gary",
+    "bio": "Guitar teacher making music accessible. Beginner lessons, chord progressions, gear reviews, and the joy of playing guitar.",
+    "content_style_tags": ["Music", "Education", "Lifestyle", "Creative"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 175000,
+      "total_gmv_30d": 18500,
+      "avg_views_30d": 44000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "MALE", "gender_pct": 65, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "music_producer_morgan",
+    "bio": "Music producer and beatmaker. FL Studio tutorials, sample packs, mixing tips, and the business side of music production.",
+    "content_style_tags": ["Music", "Tech", "Creative", "Education"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 27000,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "MALE", "gender_pct": 70, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "piano_practice_priya",
+    "bio": "Classical pianist turned contemporary music educator. Piano lessons from scratch, music theory, and performance psychology.",
+    "content_style_tags": ["Music", "Education", "Lifestyle", "Creative"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 195000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 49000,
+      "engagement_rate": 0.059,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 62, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "podcast_pro_pete",
+    "bio": "Podcast producer and audio engineer helping creators launch their shows. Equipment guides, editing tutorials, and monetization tips.",
+    "content_style_tags": ["Tech", "Creative", "Education", "Lifestyle"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 155000,
+      "total_gmv_30d": 16000,
+      "avg_views_30d": 39000,
+      "engagement_rate": 0.055,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "MALE", "gender_pct": 61, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "photo_tips_phoebe",
+    "bio": "Photographer and visual storytelling educator. Camera basics, editing tutorials, and how to turn your passion into a career.",
+    "content_style_tags": ["Photography", "Creative", "Tech", "Education"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 23500,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.061,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 63, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "science_simplified_sven",
+    "bio": "Physics PhD making science engaging and accessible. Explaining complex concepts with everyday analogies and visual demonstrations.",
+    "content_style_tags": ["Education", "Science", "Lifestyle", "Tech"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 278000,
+      "total_gmv_30d": 30000,
+      "avg_views_30d": 69000,
+      "engagement_rate": 0.066,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "MALE", "gender_pct": 62, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "history_hunter_harriet",
+    "bio": "History educator bringing the past to life. Deep dives into forgotten civilizations, famous mysteries, and historical turning points.",
+    "content_style_tags": ["Education", "History", "Culture", "Lifestyle"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 222000,
+      "total_gmv_30d": 23500,
+      "avg_views_30d": 55000,
+      "engagement_rate": 0.062,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 58, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "language_learner_luis",
+    "bio": "Polyglot and language learning coach. Learning Spanish, French, Japanese and more — efficient methods, not boring textbooks.",
+    "content_style_tags": ["Education", "Lifestyle", "Culture", "Travel"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 26500,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 57, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "math_made_easy_megan",
+    "bio": "Math teacher making algebra, calculus, and statistics click. Visual explanations, real-world applications, and exam prep.",
+    "content_style_tags": ["Education", "Science", "Lifestyle", "Career"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 198000,
+      "total_gmv_30d": 20000,
+      "avg_views_30d": 50000,
+      "engagement_rate": 0.059,
+      "gpm": 0.40,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 60, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "philosophy_with_phil",
+    "bio": "Philosophy professor making ancient wisdom relevant today. Stoicism, existentialism, ethics, and how to think better.",
+    "content_style_tags": ["Education", "Lifestyle", "Wellness", "Culture"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 172000,
+      "total_gmv_30d": 17500,
+      "avg_views_30d": 43000,
+      "engagement_rate": 0.057,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "MALE", "gender_pct": 60, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "mindset_coach_maya",
+    "bio": "Business and mindset coach helping entrepreneurs overcome self-doubt, build resilience, and scale their vision.",
+    "content_style_tags": ["Lifestyle", "Education", "Finance", "Wellness"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 405000,
+      "total_gmv_30d": 48000,
+      "avg_views_30d": 97000,
+      "engagement_rate": 0.073,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 68, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "zero_gmv_newbie",
+    "bio": "New creator figuring out what content to make. Testing different niches and styles.",
+    "content_style_tags": ["Lifestyle"],
+    "projected_score": 62,
+    "metrics": {
+      "follower_count": 850,
+      "total_gmv_30d": 0,
+      "avg_views_30d": 500,
+      "engagement_rate": 0.015,
+      "gpm": 0.0,
+      "demographics": { "major_gender": "MALE", "gender_pct": 53, "age_ranges": ["18-24"] }
+    }
+  },
+  {
+    "username": "home_tour_holly",
+    "bio": "Home tour host showcasing real people's spaces — from tiny studios to family homes. Decor ideas you can actually replicate.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 298000,
+      "total_gmv_30d": 34000,
+      "avg_views_30d": 72000,
+      "engagement_rate": 0.067,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "pet_friendly_decor_paula",
+    "bio": "Designing beautiful homes that work for pets too. Durable materials, pet-safe plants, and stylish solutions for animal lovers.",
+    "content_style_tags": ["Home", "Lifestyle", "Design", "Pets"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 24000,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.062,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 78, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "lighting_design_leo",
+    "bio": "Lighting designer helping homeowners transform spaces with the right light. Layered lighting, smart bulbs, and ambiance on a budget.",
+    "content_style_tags": ["Home", "Design", "Tech", "DIY"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 188000,
+      "total_gmv_30d": 20500,
+      "avg_views_30d": 47000,
+      "engagement_rate": 0.059,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 61, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "textile_tales_tara",
+    "bio": "Textile and fabric obsessive. Curtains, rugs, throws, and how the right fabrics can completely transform a room.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 148000,
+      "total_gmv_30d": 15000,
+      "avg_views_30d": 37000,
+      "engagement_rate": 0.054,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "bathroom_bliss_bart",
+    "bio": "Bathroom renovation and spa-inspired design. Turning dated bathrooms into luxurious retreats without a full gut renovation.",
+    "content_style_tags": ["Home", "Design", "DIY", "Wellness"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 162000,
+      "total_gmv_30d": 16500,
+      "avg_views_30d": 40000,
+      "engagement_rate": 0.056,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "MALE", "gender_pct": 58, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "gallery_wall_gloria",
+    "bio": "Art and gallery wall specialist. Curating meaningful collections, framing tips, and creating art-filled homes on any budget.",
+    "content_style_tags": ["Home", "Design", "Art", "Lifestyle"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 210000,
+      "total_gmv_30d": 22500,
+      "avg_views_30d": 52000,
+      "engagement_rate": 0.061,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "outdoor_living_omar",
+    "bio": "Outdoor space and patio design. Creating inviting backyard retreats, balcony gardens, and al fresco living spaces.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Gardening"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 185000,
+      "total_gmv_30d": 20000,
+      "avg_views_30d": 46000,
+      "engagement_rate": 0.059,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "MALE", "gender_pct": 56, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "curtain_queen_cathy",
+    "bio": "Window treatment specialist. Curtains, blinds, sheers, and how to frame your windows to make rooms look bigger and more luxurious.",
+    "content_style_tags": ["Home", "Design", "DIY", "Budget"],
+    "projected_score": 82,
+    "metrics": {
+      "follower_count": 138000,
+      "total_gmv_30d": 13000,
+      "avg_views_30d": 34000,
+      "engagement_rate": 0.053,
+      "gpm": 0.38,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 82, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "first_home_finn",
+    "bio": "First-time homeowner documenting every renovation, mistake, and win. Relatable content for new homeowners on a tight budget.",
+    "content_style_tags": ["Home", "DIY", "Lifestyle", "Budget"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 168000,
+      "total_gmv_30d": 17000,
+      "avg_views_30d": 42000,
+      "engagement_rate": 0.057,
+      "gpm": 0.40,
+      "demographics": { "major_gender": "MALE", "gender_pct": 57, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "scent_sational_simone",
+    "bio": "Home fragrance and ambiance creator. Candles, diffusers, room sprays, and how scent transforms the feeling of a space.",
+    "content_style_tags": ["Home", "Lifestyle", "Wellness", "Beauty"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 48000,
+      "engagement_rate": 0.060,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 83, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "affordable_art_annie",
+    "bio": "Making art collecting accessible for everyone. Prints, posters, emerging artists, and how to build a meaningful collection under $100.",
+    "content_style_tags": ["Home", "Art", "Lifestyle", "Budget"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 148000,
+      "total_gmv_30d": 14500,
+      "avg_views_30d": 37000,
+      "engagement_rate": 0.055,
+      "gpm": 0.39,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 76, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "coffee_corner_chris",
+    "bio": "Coffee station and home bar setup enthusiast. Espresso machines, pour-over guides, and creating the perfect caffeine corner.",
+    "content_style_tags": ["Home", "Lifestyle", "Food", "Design"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 172000,
+      "total_gmv_30d": 18000,
+      "avg_views_30d": 43000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "MALE", "gender_pct": 58, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "reading_nook_rosa",
+    "bio": "Book lover and reading space designer. Creating cozy reading nooks, bookshelf organization, and book recommendations.",
+    "content_style_tags": ["Home", "Lifestyle", "Design", "Education"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 155000,
+      "total_gmv_30d": 15500,
+      "avg_views_30d": 39000,
+      "engagement_rate": 0.055,
+      "gpm": 0.40,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 78, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "home_office_setup_howard",
+    "bio": "Remote work and home office setup specialist. Ergonomics, productivity tools, desk setups, and making WFH actually work.",
+    "content_style_tags": ["Home", "Tech", "Lifestyle", "Productivity"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 275000,
+      "total_gmv_30d": 31000,
+      "avg_views_30d": 67000,
+      "engagement_rate": 0.066,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "MALE", "gender_pct": 63, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "climate_concious_clara",
+    "bio": "Sustainable living educator. Reducing your carbon footprint at home, eco-friendly product swaps, and zero-waste lifestyle tips.",
+    "content_style_tags": ["Lifestyle", "Sustainable", "Education", "Home"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 26000,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 72, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "energy_efficient_evan",
+    "bio": "Home energy efficiency expert. Solar panels, smart thermostats, insulation, and how to slash your utility bills.",
+    "content_style_tags": ["Home", "Tech", "Sustainable", "Education"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 21500,
+      "avg_views_30d": 48000,
+      "engagement_rate": 0.060,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "MALE", "gender_pct": 64, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "seasonal_decor_sandy",
+    "bio": "Seasonal home decor creator. Transforming spaces for every season and holiday with affordable, reusable decorations.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 24500,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.062,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "declutter_with_derek",
+    "bio": "Professional declutterer and KonMari consultant. Helping families let go of stuff and create spacious, joyful homes.",
+    "content_style_tags": ["Home", "Lifestyle", "Organization", "Wellness"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 238000,
+      "total_gmv_30d": 26500,
+      "avg_views_30d": 58000,
+      "engagement_rate": 0.063,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "MALE", "gender_pct": 55, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "wall_art_wendy",
+    "bio": "DIY wall art creator. Painting, macrame, printables, and easy techniques to create statement walls on any budget.",
+    "content_style_tags": ["Home", "DIY", "Art", "Lifestyle"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 195000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 49000,
+      "engagement_rate": 0.060,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "kids_room_design_kate",
+    "bio": "Children's room designer and family home specialist. Safe, fun, and functional spaces for kids at every age and stage.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Family"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 242000,
+      "total_gmv_30d": 27500,
+      "avg_views_30d": 59000,
+      "engagement_rate": 0.064,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 82, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "carpet_and_rugs_carl",
+    "bio": "Rug and flooring specialist. Choosing the perfect rug for any space, rug sizing guides, and flooring transformation ideas.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Budget"],
+    "projected_score": 82,
+    "metrics": {
+      "follower_count": 135000,
+      "total_gmv_30d": 13000,
+      "avg_views_30d": 34000,
+      "engagement_rate": 0.052,
+      "gpm": 0.38,
+      "demographics": { "major_gender": "MALE", "gender_pct": 57, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "storage_solutions_stella",
+    "bio": "Storage and organization specialist. From custom built-ins to clever containers — finding a place for everything in any home.",
+    "content_style_tags": ["Home", "Organization", "DIY", "Lifestyle"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 218000,
+      "total_gmv_30d": 24000,
+      "avg_views_30d": 54000,
+      "engagement_rate": 0.062,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 78, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "transition_decor_tia",
+    "bio": "Seasonal transition home styling. How to refresh your home for spring, fall, and every season without buying new furniture.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Budget"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 168000,
+      "total_gmv_30d": 17500,
+      "avg_views_30d": 42000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "new_mom_nest_nancy",
+    "bio": "Interior designer and new mom. Creating safe, beautiful, and functional spaces for growing families on a budget.",
+    "content_style_tags": ["Home", "Lifestyle", "Family", "Design"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 268000,
+      "total_gmv_30d": 30000,
+      "avg_views_30d": 65000,
+      "engagement_rate": 0.065,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 84, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "bohemian_bedroom_bo",
+    "bio": "Bohemian and eclectic bedroom styling. Creating layered, personal, and cozy bedrooms that feel like a sanctuary.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 23500,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.062,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 81, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "japandi_design_jade",
+    "bio": "Japandi interior design enthusiast. The perfect blend of Japanese minimalism and Scandinavian warmth for serene, beautiful homes.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Minimalism"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 340000,
+      "total_gmv_30d": 39000,
+      "avg_views_30d": 82000,
+      "engagement_rate": 0.070,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 77, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "bold_home_brad",
+    "bio": "Maximalist home design advocate. More is more — bold patterns, layered textures, and creating homes with personality.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Art"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 152000,
+      "total_gmv_30d": 15500,
+      "avg_views_30d": 38000,
+      "engagement_rate": 0.055,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "MALE", "gender_pct": 57, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "open_plan_olivia",
+    "bio": "Open plan living and space planning specialist. How to zone, style, and maximize open floor plan homes.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 48000,
+      "engagement_rate": 0.060,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 77, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "accent_wall_adam",
+    "bio": "Accent wall specialist. Paint techniques, wallpaper installation, paneling, and how one wall can change everything.",
+    "content_style_tags": ["Home", "DIY", "Design", "Budget"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 168000,
+      "total_gmv_30d": 17500,
+      "avg_views_30d": 42000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "MALE", "gender_pct": 59, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "neutral_palette_nora",
+    "bio": "Neutral and tonal home styling. Creating sophisticated, timeless interiors using whites, beiges, and earthy tones.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Minimalism"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 27000,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 82, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "furniture_flips_faye",
+    "bio": "Furniture upcycling and flipping creator. Turning thrift store finds into designer-looking pieces with paint, fabric, and skill.",
+    "content_style_tags": ["Home", "DIY", "Budget", "Design"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 275000,
+      "total_gmv_30d": 32000,
+      "avg_views_30d": 67000,
+      "engagement_rate": 0.066,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 78, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "wallpaper_wonder_willa",
+    "bio": "Wallpaper installation and design tutorials. From peel-and-stick to traditional, making wallpaper approachable for beginners.",
+    "content_style_tags": ["Home", "DIY", "Design", "Budget"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 195000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 49000,
+      "engagement_rate": 0.060,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "paint_color_consultant_penny",
+    "bio": "Certified paint color consultant. Helping homeowners choose the perfect colors for every room, lighting condition, and style.",
+    "content_style_tags": ["Home", "Design", "DIY", "Education"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 268000,
+      "total_gmv_30d": 30000,
+      "avg_views_30d": 65000,
+      "engagement_rate": 0.065,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "small_kitchen_stacy",
+    "bio": "Making the most of small kitchens. Organization hacks, space-saving appliances, and cooking in tight quarters with style.",
+    "content_style_tags": ["Home", "Food", "Organization", "DIY"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 218000,
+      "total_gmv_30d": 24500,
+      "avg_views_30d": 54000,
+      "engagement_rate": 0.062,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 77, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "zero_gmv_blogger",
+    "bio": "Lifestyle blog content migrated to video. Still learning how social commerce works.",
+    "content_style_tags": ["Lifestyle", "Home"],
+    "projected_score": 63,
+    "metrics": {
+      "follower_count": 2200,
+      "total_gmv_30d": 0,
+      "avg_views_30d": 1200,
+      "engagement_rate": 0.018,
+      "gpm": 0.0,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 60, "age_ranges": ["25-34"] }
+    }
+  },
+  {
+    "username": "closet_organizer_cleo",
+    "bio": "Closet organization and wardrobe system specialist. Custom closets on a budget, capsule collection storage, and seasonal rotation.",
+    "content_style_tags": ["Home", "Organization", "Fashion", "Lifestyle"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 27500,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 81, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "design_on_demand_donna",
+    "bio": "Online interior designer offering accessible design advice. Room mood boards, shopping guides, and virtual consultations.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Education"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 328000,
+      "total_gmv_30d": 38000,
+      "avg_views_30d": 79000,
+      "engagement_rate": 0.069,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "sustainable_home_seth",
+    "bio": "Eco-friendly home improvement and sustainable living. Green building materials, upcycling, and reducing your home's footprint.",
+    "content_style_tags": ["Home", "Sustainable", "DIY", "Education"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 185000,
+      "total_gmv_30d": 20000,
+      "avg_views_30d": 46000,
+      "engagement_rate": 0.059,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "MALE", "gender_pct": 59, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "wellness_retreat_at_home_wren",
+    "bio": "Creating spa and retreat vibes at home. Bath rituals, aromatherapy, meditation corners, and self-care spaces on a budget.",
+    "content_style_tags": ["Home", "Wellness", "Lifestyle", "Beauty"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 272000,
+      "total_gmv_30d": 31000,
+      "avg_views_30d": 66000,
+      "engagement_rate": 0.066,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 85, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "loft_living_lance",
+    "bio": "Loft and industrial-style living expert. Exposed brick, open ceilings, and urban aesthetic for modern apartment dwellers.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Architecture"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 172000,
+      "total_gmv_30d": 18000,
+      "avg_views_30d": 43000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "MALE", "gender_pct": 62, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "home_staging_harriet",
+    "bio": "Professional home stager sharing insider secrets. How to stage your home to sell fast and for top dollar.",
+    "content_style_tags": ["Home", "Design", "Education", "Lifestyle"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 242000,
+      "total_gmv_30d": 27000,
+      "avg_views_30d": 59000,
+      "engagement_rate": 0.064,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 72, "age_ranges": ["35-44", "45-54"] }
+    }
+  },
+  {
+    "username": "mirror_magic_mila",
+    "bio": "Using mirrors to transform spaces. Placement tips, styles for different aesthetics, and how mirrors make rooms look bigger.",
+    "content_style_tags": ["Home", "Design", "DIY", "Budget"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 168000,
+      "total_gmv_30d": 17500,
+      "avg_views_30d": 42000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "compact_living_carmen",
+    "bio": "Living big in small spaces. Micro apartment tours, space-saving furniture reviews, and tips from minimalist tiny home dwellers.",
+    "content_style_tags": ["Home", "Lifestyle", "Design", "Minimalism"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 305000,
+      "total_gmv_30d": 35500,
+      "avg_views_30d": 74000,
+      "engagement_rate": 0.068,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "apartment_upgrade_abby",
+    "bio": "Affordable apartment upgrades that make a big impact. From new hardware to statement lighting — small changes, big results.",
+    "content_style_tags": ["Home", "Design", "Budget", "DIY"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 340000,
+      "total_gmv_30d": 40000,
+      "avg_views_30d": 82000,
+      "engagement_rate": 0.070,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "cozy_reading_celia",
+    "bio": "Book lover creating the ultimate cozy home. Bookshelves, reading lights, warm corners, and the perfect home for literature lovers.",
+    "content_style_tags": ["Home", "Lifestyle", "Design", "Wellness"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 148000,
+      "total_gmv_30d": 15000,
+      "avg_views_30d": 37000,
+      "engagement_rate": 0.054,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 76, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "modern_classic_mack",
+    "bio": "Blending modern and traditional design elements. Timeless interiors that feel current without following fleeting trends.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Architecture"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 23500,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.062,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 58, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "decor_trends_diana",
+    "bio": "Interior design trend forecaster. What's in, what's out, and how to incorporate trends without redecorating every year.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Fashion"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 275000,
+      "total_gmv_30d": 31500,
+      "avg_views_30d": 67000,
+      "engagement_rate": 0.066,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "wellness_rituals_rita",
+    "bio": "Daily wellness rituals and morning routines. Cold plunges, breathwork, journaling, and habits that transform your mind and body.",
+    "content_style_tags": ["Wellness", "Health", "Lifestyle", "Education"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 298000,
+      "total_gmv_30d": 34000,
+      "avg_views_30d": 72000,
+      "engagement_rate": 0.067,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 74, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "outdoor_chef_oscar",
+    "bio": "Outdoor cooking and barbecue master. Grilling techniques, smoker recipes, and hosting the perfect backyard cookout.",
+    "content_style_tags": ["Food", "Lifestyle", "Sports & Outdoors", "DIY"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 218000,
+      "total_gmv_30d": 24500,
+      "avg_views_30d": 54000,
+      "engagement_rate": 0.062,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "MALE", "gender_pct": 67, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "travel_photography_tess",
+    "bio": "Travel photographer and visual storyteller. Composition tips, editing workflows, and capturing authentic moments around the world.",
+    "content_style_tags": ["Travel", "Photography", "Lifestyle", "Creative"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 27000,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 63, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "dance_fitness_destiny",
+    "bio": "Dance fitness instructor combining movement, rhythm, and fun. Zumba, hip-hop cardio, and dance workouts for all levels.",
+    "content_style_tags": ["Fitness", "Health", "Music", "Lifestyle"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 268000,
+      "total_gmv_30d": 29500,
+      "avg_views_30d": 65000,
+      "engagement_rate": 0.066,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "plant_based_petra",
+    "bio": "Plant-based nutrition coach and recipe creator. Whole food, plant-based lifestyle for health, performance, and the planet.",
+    "content_style_tags": ["Food", "Health", "Sustainable", "Lifestyle"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 242000,
+      "total_gmv_30d": 26500,
+      "avg_views_30d": 59000,
+      "engagement_rate": 0.063,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 71, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "tennis_tutor_theo",
+    "bio": "Tennis coach and player development specialist. Technique breakdowns, match strategy, and equipment reviews for all levels.",
+    "content_style_tags": ["Sports & Outdoors", "Fitness", "Education", "Reviews"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 152000,
+      "total_gmv_30d": 15000,
+      "avg_views_30d": 38000,
+      "engagement_rate": 0.055,
+      "gpm": 0.39,
+      "demographics": { "major_gender": "MALE", "gender_pct": 65, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "bookshelf_styling_bianca",
+    "bio": "Bookshelf and shelfie styling expert. Organizing books aesthetically, mixing decor objects, and creating stunning shelf displays.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "DIY"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 21500,
+      "avg_views_30d": 48000,
+      "engagement_rate": 0.060,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "luxury_bedding_lena",
+    "bio": "Sleep quality and luxury bedding expert. Thread counts, natural materials, duvet guides, and creating a five-star bed at home.",
+    "content_style_tags": ["Home", "Wellness", "Lifestyle", "Reviews"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 212000,
+      "total_gmv_30d": 23500,
+      "avg_views_30d": 52000,
+      "engagement_rate": 0.062,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 81, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "football_analytics_fred",
+    "bio": "Football tactics analyst and data enthusiast. Xg models, pressing analytics, and the science behind modern football coaching.",
+    "content_style_tags": ["Sports & Outdoors", "Education", "Tech", "Gaming"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 195000,
+      "total_gmv_30d": 20000,
+      "avg_views_30d": 50000,
+      "engagement_rate": 0.059,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "MALE", "gender_pct": 82, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "apartment_garden_angie",
+    "bio": "Urban balcony gardening and container growing. Growing herbs, vegetables, and flowers in small outdoor spaces.",
+    "content_style_tags": ["Home", "Gardening", "Food", "Sustainable"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 168000,
+      "total_gmv_30d": 17500,
+      "avg_views_30d": 42000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 75, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "interior_styling_india",
+    "bio": "Freelance interior stylist sharing tips from the industry. Photo shoots, prop sourcing, and making homes magazine-worthy.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Creative"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 292000,
+      "total_gmv_30d": 33500,
+      "avg_views_30d": 71000,
+      "engagement_rate": 0.067,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "holistic_health_heidi",
+    "bio": "Functional medicine practitioner sharing holistic health wisdom. Gut health, hormones, nutrition, and root-cause wellness.",
+    "content_style_tags": ["Health", "Wellness", "Nutrition", "Education"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 398000,
+      "total_gmv_30d": 47000,
+      "avg_views_30d": 95000,
+      "engagement_rate": 0.072,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 76, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "remote_work_ryan",
+    "bio": "Remote work lifestyle and digital nomad guide. Productivity tools, best co-working spaces, and thriving while working from anywhere.",
+    "content_style_tags": ["Lifestyle", "Tech", "Travel", "Education"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 242000,
+      "total_gmv_30d": 26500,
+      "avg_views_30d": 59000,
+      "engagement_rate": 0.063,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 61, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "candle_making_cassie",
+    "bio": "Candle and home fragrance maker sharing tutorials, recipes, and the business of handmade home goods.",
+    "content_style_tags": ["Home", "DIY", "Lifestyle", "Creative"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 152000,
+      "total_gmv_30d": 15500,
+      "avg_views_30d": 38000,
+      "engagement_rate": 0.055,
+      "gpm": 0.41,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "skincare_for_men_mike",
+    "bio": "Breaking the stigma of men's skincare. Simple routines, effective products, and why every man should care for their skin.",
+    "content_style_tags": ["Beauty", "Health", "Lifestyle", "Education"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 23500,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.062,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 74, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "nutrition_lab_nadia",
+    "bio": "Registered dietitian cutting through nutrition noise. Evidence-based eating, supplement truth, and sustainable healthy habits.",
+    "content_style_tags": ["Health", "Nutrition", "Education", "Lifestyle"],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 342000,
+      "total_gmv_30d": 40000,
+      "avg_views_30d": 82000,
+      "engagement_rate": 0.070,
+      "gpm": 0.49,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 72, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "minimalist_wardrobe_mo",
+    "bio": "Men's minimalist wardrobe architect. Building a lean, versatile closet that works for every occasion without overcrowding.",
+    "content_style_tags": ["Fashion", "Lifestyle", "Minimalism", "Budget"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 218000,
+      "total_gmv_30d": 24000,
+      "avg_views_30d": 54000,
+      "engagement_rate": 0.062,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 70, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "color_psychology_colette",
+    "bio": "Color psychology and home design educator. How colors affect mood, productivity, and wellbeing in your living spaces.",
+    "content_style_tags": ["Home", "Design", "Education", "Wellness"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 238000,
+      "total_gmv_30d": 26000,
+      "avg_views_30d": 58000,
+      "engagement_rate": 0.063,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 77, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "zero_clutter_zoe",
+    "bio": "Extreme minimalist and clutter-free living advocate. Owning less, living more, and the freedom of a truly minimal home.",
+    "content_style_tags": ["Home", "Lifestyle", "Minimalism", "Wellness"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 20500,
+      "avg_views_30d": 48000,
+      "engagement_rate": 0.060,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 76, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "african_prints_ada",
+    "bio": "African fashion and home decor creator. Celebrating African textile arts, prints, and design aesthetics in modern homes.",
+    "content_style_tags": ["Home", "Fashion", "Culture", "Design"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 23500,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.062,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 78, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "nordic_living_nils",
+    "bio": "Scandinavian living and design philosophy. Lagom, hygge, and the Nordic approach to home, wellness, and work-life balance.",
+    "content_style_tags": ["Home", "Lifestyle", "Design", "Wellness"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 238000,
+      "total_gmv_30d": 26000,
+      "avg_views_30d": 58000,
+      "engagement_rate": 0.063,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "MALE", "gender_pct": 58, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "home_economics_hank",
+    "bio": "Smart home buying and financial planning for homeowners. Mortgage tips, renovation ROI, and property investment basics.",
+    "content_style_tags": ["Home", "Finance", "Education", "Lifestyle"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 23000,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.062,
+      "gpm": 0.43,
+      "demographics": { "major_gender": "MALE", "gender_pct": 60, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "creative_corner_camille",
+    "bio": "Arts and crafts creator for adults. Watercolor painting, pottery, fiber arts, and finding creativity in everyday life.",
+    "content_style_tags": ["Creative", "Lifestyle", "DIY", "Home"],
+    "projected_score": 84,
+    "metrics": {
+      "follower_count": 168000,
+      "total_gmv_30d": 17500,
+      "avg_views_30d": 42000,
+      "engagement_rate": 0.057,
+      "gpm": 0.42,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 77, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "meal_kit_maven_mandy",
+    "bio": "Honest meal kit reviews and home cooking upgrades. Comparing services, recreating meals from scratch, and cooking smarter.",
+    "content_style_tags": ["Food", "Lifestyle", "Reviews", "Budget"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 48000,
+      "engagement_rate": 0.060,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 69, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "gym_setup_gordie",
+    "bio": "Home gym builder and fitness equipment reviewer. Budget to premium setups, space planning, and getting strong at home.",
+    "content_style_tags": ["Fitness", "Home", "Sports & Outdoors", "Reviews"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 242000,
+      "total_gmv_30d": 27000,
+      "avg_views_30d": 59000,
+      "engagement_rate": 0.064,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "MALE", "gender_pct": 71, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "scandi_style_sigrid",
+    "bio": "Scandinavian fashion and minimalist style. Clean lines, quality basics, and building a wardrobe that lasts for decades.",
+    "content_style_tags": ["Fashion", "Lifestyle", "Minimalism", "Design"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 265000,
+      "total_gmv_30d": 30000,
+      "avg_views_30d": 64000,
+      "engagement_rate": 0.065,
+      "gpm": 0.47,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "bathroom_beauty_shelf_bree",
+    "bio": "Beauty storage and bathroom organization obsessive. Skincare shelfies, vanity setups, and making your beauty routine beautiful.",
+    "content_style_tags": ["Home", "Beauty", "Organization", "Lifestyle"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 242000,
+      "total_gmv_30d": 27000,
+      "avg_views_30d": 59000,
+      "engagement_rate": 0.064,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 87, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "eco_home_eleanor",
+    "bio": "Eco-friendly home products and zero-waste home hacks. Making your home more sustainable one swap at a time.",
+    "content_style_tags": ["Home", "Sustainable", "Lifestyle", "Education"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 215000,
+      "total_gmv_30d": 23500,
+      "avg_views_30d": 53000,
+      "engagement_rate": 0.062,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 73, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "handmade_home_hector",
+    "bio": "Handmade home goods creator and craft seller. Pottery, woodwork, and handmade items that add soul to any space.",
+    "content_style_tags": ["Home", "DIY", "Art", "Creative"],
+    "projected_score": 83,
+    "metrics": {
+      "follower_count": 148000,
+      "total_gmv_30d": 15000,
+      "avg_views_30d": 37000,
+      "engagement_rate": 0.055,
+      "gpm": 0.40,
+      "demographics": { "major_gender": "MALE", "gender_pct": 58, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "feminine_home_felicity",
+    "bio": "Elegant, feminine home design. Soft curves, floral elements, and creating romantic, beautiful spaces for women who love beautiful things.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Fashion"],
+    "projected_score": 89,
+    "metrics": {
+      "follower_count": 295000,
+      "total_gmv_30d": 34000,
+      "avg_views_30d": 71000,
+      "engagement_rate": 0.067,
+      "gpm": 0.48,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 88, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "home_deals_hunter_harry",
+    "bio": "Finding the best deals on home decor and furniture. Sale alerts, discount codes, and sourcing high-quality items at low prices.",
+    "content_style_tags": ["Home", "Budget", "Lifestyle", "Reviews"],
+    "projected_score": 86,
+    "metrics": {
+      "follower_count": 218000,
+      "total_gmv_30d": 24500,
+      "avg_views_30d": 54000,
+      "engagement_rate": 0.062,
+      "gpm": 0.45,
+      "demographics": { "major_gender": "MALE", "gender_pct": 57, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "interior_minimalist_iris",
+    "bio": "Interior minimalist helping people strip back to what matters. Less stuff, more beauty, and intentional living through design.",
+    "content_style_tags": ["Home", "Minimalism", "Design", "Lifestyle"],
+    "projected_score": 88,
+    "metrics": {
+      "follower_count": 268000,
+      "total_gmv_30d": 30000,
+      "avg_views_30d": 65000,
+      "engagement_rate": 0.065,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 79, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "zero_gmv_food_blogger",
+    "bio": "Hobby food blogger posting recipes occasionally. No monetization strategy yet.",
+    "content_style_tags": ["Food", "Lifestyle"],
+    "projected_score": 61,
+    "metrics": {
+      "follower_count": 3200,
+      "total_gmv_30d": 0,
+      "avg_views_30d": 1800,
+      "engagement_rate": 0.022,
+      "gpm": 0.0,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 61, "age_ranges": ["25-34"] }
+    }
+  },
+  {
+    "username": "travel_home_inspo_tanya",
+    "bio": "Travel-inspired home decor. Bringing back global aesthetics — Moroccan, Japanese, Balinese — into your everyday living space.",
+    "content_style_tags": ["Home", "Travel", "Design", "Culture"],
+    "projected_score": 87,
+    "metrics": {
+      "follower_count": 245000,
+      "total_gmv_30d": 27500,
+      "avg_views_30d": 60000,
+      "engagement_rate": 0.064,
+      "gpm": 0.46,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 77, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "affordable_apartment_decor_aisha",
+    "bio": "Making apartment living beautiful without spending a fortune. Budget finds, styling hacks, and real apartment before and afters.",
+    "content_style_tags": ["Home", "Design", "Budget", "Lifestyle"],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 395000,
+      "total_gmv_30d": 47000,
+      "avg_views_30d": 94000,
+      "engagement_rate": 0.072,
+      "gpm": 0.50,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 81, "age_ranges": ["18-24", "25-34"] }
+    }
+  },
+  {
+    "username": "home_refresh_henrietta",
+    "bio": "Quick and affordable home refresh ideas. Changing up your space seasonally without buying all new furniture.",
+    "content_style_tags": ["Home", "Design", "Budget", "DIY"],
+    "projected_score": 85,
+    "metrics": {
+      "follower_count": 192000,
+      "total_gmv_30d": 21000,
+      "avg_views_30d": 48000,
+      "engagement_rate": 0.060,
+      "gpm": 0.44,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 80, "age_ranges": ["25-34", "35-44"] }
+    }
+  },
+  {
+    "username": "cozy_small_apartment_coco",
+    "bio": "Tiny apartment dweller proving small spaces can feel big and luxurious. Decor layers, strategic furniture, and cozy vibes on a budget.",
+    "content_style_tags": ["Home", "Design", "Lifestyle", "Budget"],
+    "projected_score": 92,
+    "metrics": {
+      "follower_count": 448000,
+      "total_gmv_30d": 55000,
+      "avg_views_30d": 110000,
+      "engagement_rate": 0.075,
+      "gpm": 0.50,
+      "demographics": { "major_gender": "FEMALE", "gender_pct": 82, "age_ranges": ["18-24", "25-34"] }
+    }
+  }
+]

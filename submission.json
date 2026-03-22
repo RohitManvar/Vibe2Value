@@ -1,0 +1,312 @@
+[
+  {
+    "username": "cozy_small_apartment_coco",
+    "bio": "Tiny apartment dweller proving small spaces can feel big and luxurious. Decor layers, strategic furniture, and cozy vibes on a budget.",
+    "content_style_tags": [
+      "Home",
+      "Design",
+      "Lifestyle",
+      "Budget"
+    ],
+    "projected_score": 92,
+    "metrics": {
+      "follower_count": 448000,
+      "total_gmv_30d": 55000,
+      "avg_views_30d": 110000,
+      "engagement_rate": 0.075,
+      "gpm": 0.5,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 82,
+        "age_ranges": [
+          "18-24",
+          "25-34"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.6456,
+      "projected_score": 0.8,
+      "final_score": 0.7882
+    }
+  },
+  {
+    "username": "luxury_for_less_lara",
+    "bio": "High-end home decor looks on a real person's budget. Designer dupes, affordable alternatives, and smart shopping guides.",
+    "content_style_tags": [
+      "Home",
+      "Design",
+      "Budget",
+      "Lifestyle"
+    ],
+    "projected_score": 92,
+    "metrics": {
+      "follower_count": 440000,
+      "total_gmv_30d": 53000,
+      "avg_views_30d": 108000,
+      "engagement_rate": 0.074,
+      "gpm": 0.49,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 81,
+        "age_ranges": [
+          "25-34",
+          "35-44"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.5419,
+      "projected_score": 0.8,
+      "final_score": 0.7468
+    }
+  },
+  {
+    "username": "cozy_home_with_lisa",
+    "bio": "Interior designer and home decor lover helping you create beautiful, affordable spaces. From small apartments to full home makeovers.",
+    "content_style_tags": [
+      "Home",
+      "DIY",
+      "Lifestyle",
+      "Design"
+    ],
+    "projected_score": 92,
+    "metrics": {
+      "follower_count": 380000,
+      "total_gmv_30d": 42000,
+      "avg_views_30d": 89000,
+      "engagement_rate": 0.071,
+      "gpm": 0.47,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 79,
+        "age_ranges": [
+          "25-34",
+          "35-44"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.5189,
+      "projected_score": 0.8,
+      "final_score": 0.7376
+    }
+  },
+  {
+    "username": "affordable_apartment_decor_aisha",
+    "bio": "Making apartment living beautiful without spending a fortune. Budget finds, styling hacks, and real apartment before and afters.",
+    "content_style_tags": [
+      "Home",
+      "Design",
+      "Budget",
+      "Lifestyle"
+    ],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 395000,
+      "total_gmv_30d": 47000,
+      "avg_views_30d": 94000,
+      "engagement_rate": 0.072,
+      "gpm": 0.5,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 81,
+        "age_ranges": [
+          "18-24",
+          "25-34"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.5466,
+      "projected_score": 0.775,
+      "final_score": 0.7336
+    }
+  },
+  {
+    "username": "decor_on_a_dime_dana",
+    "bio": "Home decor creator on a mission: beautiful rooms, tiny budgets. IKEA hacks, thrift store finds, and weekend DIY projects.",
+    "content_style_tags": [
+      "Home",
+      "DIY",
+      "Budget",
+      "Design"
+    ],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 320000,
+      "total_gmv_30d": 39000,
+      "avg_views_30d": 78000,
+      "engagement_rate": 0.07,
+      "gpm": 0.5,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 80,
+        "age_ranges": [
+          "25-34",
+          "35-44"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.5815,
+      "projected_score": 0.75,
+      "final_score": 0.7326
+    }
+  },
+  {
+    "username": "apartment_therapy_alex",
+    "bio": "NYC-based design enthusiast turning cramped apartments into dream spaces. Affordable solutions for small living.",
+    "content_style_tags": [
+      "Home",
+      "Design",
+      "Lifestyle",
+      "DIY"
+    ],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 340000,
+      "total_gmv_30d": 38500,
+      "avg_views_30d": 82000,
+      "engagement_rate": 0.069,
+      "gpm": 0.47,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 76,
+        "age_ranges": [
+          "25-34",
+          "35-44"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.5754,
+      "projected_score": 0.75,
+      "final_score": 0.7302
+    }
+  },
+  {
+    "username": "studio_apartment_sam",
+    "bio": "Living proof that small spaces can be stunning. Studio apartment tours, multi-functional furniture, and clever storage hacks.",
+    "content_style_tags": [
+      "Home",
+      "Design",
+      "Lifestyle",
+      "Budget"
+    ],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 330000,
+      "total_gmv_30d": 37000,
+      "avg_views_30d": 80000,
+      "engagement_rate": 0.069,
+      "gpm": 0.46,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 77,
+        "age_ranges": [
+          "18-24",
+          "25-34"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.5575,
+      "projected_score": 0.75,
+      "final_score": 0.723
+    }
+  },
+  {
+    "username": "budget_decor_queen",
+    "bio": "Proving you don't need a big budget to have a beautiful home. Thrift flips, IKEA hacks, and DIY decor on a dime.",
+    "content_style_tags": [
+      "Home",
+      "DIY",
+      "Budget",
+      "Fashion"
+    ],
+    "projected_score": 91,
+    "metrics": {
+      "follower_count": 420000,
+      "total_gmv_30d": 51000,
+      "avg_views_30d": 103000,
+      "engagement_rate": 0.073,
+      "gpm": 0.5,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 85,
+        "age_ranges": [
+          "18-24",
+          "25-34"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.5188,
+      "projected_score": 0.775,
+      "final_score": 0.7225
+    }
+  },
+  {
+    "username": "apartment_upgrade_abby",
+    "bio": "Affordable apartment upgrades that make a big impact. From new hardware to statement lighting — small changes, big results.",
+    "content_style_tags": [
+      "Home",
+      "Design",
+      "Budget",
+      "DIY"
+    ],
+    "projected_score": 90,
+    "metrics": {
+      "follower_count": 340000,
+      "total_gmv_30d": 40000,
+      "avg_views_30d": 82000,
+      "engagement_rate": 0.07,
+      "gpm": 0.49,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 80,
+        "age_ranges": [
+          "25-34",
+          "35-44"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.5421,
+      "projected_score": 0.75,
+      "final_score": 0.7168
+    }
+  },
+  {
+    "username": "small_space_sophia",
+    "bio": "Interior stylist specializing in compact apartments and studio living. Smart furniture, multi-use decor, and budget-friendly tips.",
+    "content_style_tags": [
+      "Home",
+      "Design",
+      "DIY",
+      "Lifestyle"
+    ],
+    "projected_score": 93,
+    "metrics": {
+      "follower_count": 455000,
+      "total_gmv_30d": 56000,
+      "avg_views_30d": 112000,
+      "engagement_rate": 0.075,
+      "gpm": 0.5,
+      "demographics": {
+        "major_gender": "FEMALE",
+        "gender_pct": 83,
+        "age_ranges": [
+          "25-34",
+          "35-44"
+        ]
+      }
+    },
+    "scores": {
+      "semantic_score": 0.4294,
+      "projected_score": 0.825,
+      "final_score": 0.7167
+    }
+  }
+]
