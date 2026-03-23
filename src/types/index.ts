@@ -19,6 +19,9 @@ export interface CreatorRecord {
   content_style_tags: string[];
   projected_score: number;
   metrics: CreatorMetrics;
+  platform?: string;
+  region?: string;
+  category?: string;
 }
 
 export interface BrandProfile {
@@ -38,12 +41,18 @@ export interface RankedCreator extends CreatorRecord {
     final_score: number;
   };
   rank: number;
+  platform: string;
+  region: string;
+  category: string;
 }
 
 export interface SearchQuery {
   query: string;
   brand?: BrandProfile;
   industries?: string[];
+  platforms?: string[];
+  regions?: string[];
+  categories?: string[];
   limit?: number;
 }
 

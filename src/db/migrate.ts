@@ -23,6 +23,9 @@ export async function migrate() {
       major_gender      TEXT DEFAULT '',
       gender_pct        INTEGER DEFAULT 0,
       age_ranges        TEXT[] DEFAULT '{}',
+      platform          TEXT DEFAULT '',
+      region            TEXT DEFAULT '',
+      category          TEXT DEFAULT '',
       embedding         vector(${dim})
     );
   `);
@@ -38,6 +41,9 @@ export async function migrate() {
   await query(`CREATE INDEX idx_creators_tags ON creators USING GIN (content_style_tags);`);
   await query(`CREATE INDEX idx_creators_projected ON creators (projected_score DESC);`);
   await query(`CREATE INDEX idx_creators_gmv ON creators (total_gmv_30d DESC);`);
+  await query(`CREATE INDEX idx_creators_platform ON creators (platform);`);
+  await query(`CREATE INDEX idx_creators_region ON creators (region);`);
+  await query(`CREATE INDEX idx_creators_category ON creators (category);`);
 
   console.log("Migration complete!");
 }

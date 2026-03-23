@@ -78,30 +78,37 @@ export async function search(input: SearchQuery): Promise<SearchResponse> {
   const queryEmbedding = await embed(input.query);
   const embeddingStr = `[${queryEmbedding.join(",")}]`;
 
-  // Step 2: ANN search via pgvector HNSW
-  let sql: string;
-  let params: unknown[];
+  // Step 2: ANN search via pgvector HNSW — build dynamic WHERE clause
+  const conditions: string[] = [];
+  const params: unknown[] = [embeddingStr];
 
   if (input.industries && input.industries.length > 0) {
-    sql = `
-      SELECT *,
-        1 - (embedding <=> $1::vector) AS cosine_similarity
-      FROM creators
-      WHERE content_style_tags && $2::text[]
-      ORDER BY embedding <=> $1::vector
-      LIMIT $3;
-    `;
-    params = [embeddingStr, input.industries, candidateCount];
-  } else {
-    sql = `
-      SELECT *,
-        1 - (embedding <=> $1::vector) AS cosine_similarity
-      FROM creators
-      ORDER BY embedding <=> $1::vector
-      LIMIT $2;
-    `;
-    params = [embeddingStr, candidateCount];
+    params.push(input.industries);
+    conditions.push(`content_style_tags && $${params.length}::text[]`);
   }
+  if (input.platforms && input.platforms.length > 0) {
+    params.push(input.platforms);
+    conditions.push(`platform = ANY($${params.length}::text[])`);
+  }
+  if (input.regions && input.regions.length > 0) {
+    params.push(input.regions);
+    conditions.push(`region = ANY($${params.length}::text[])`);
+  }
+  if (input.categories && input.categories.length > 0) {
+    params.push(input.categories);
+    conditions.push(`category = ANY($${params.length}::text[])`);
+  }
+
+  params.push(candidateCount);
+  const where = conditions.length > 0 ? `WHERE ${conditions.join(" AND ")}` : "";
+  const sql = `
+    SELECT *,
+      1 - (embedding <=> $1::vector) AS cosine_similarity
+    FROM creators
+    ${where}
+    ORDER BY embedding <=> $1::vector
+    LIMIT $${params.length};
+  `;
 
   const result = await query(sql, params as unknown[]);
 
@@ -147,6 +154,9 @@ export async function search(input: SearchQuery): Promise<SearchResponse> {
 
     return {
       ...creator,
+      platform: (row.platform as string) || "",
+      region: (row.region as string) || "",
+      category: (row.category as string) || "",
       scores: {
         semantic_score: parseFloat(semantic_score.toFixed(4)),
         projected_score: parseFloat(projected_score_normalized.toFixed(4)),
@@ -245,6 +255,9 @@ export async function searchRRF(input: SearchQuery): Promise<SearchResponse> {
 
     return {
       ...creator,
+      platform: (row.platform as string) || "",
+      region: (row.region as string) || "",
+      category: (row.category as string) || "",
       scores: {
         semantic_score: parseFloat(semantic_score.toFixed(4)),
         projected_score: parseFloat(projected_norm.toFixed(4)),
