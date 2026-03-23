@@ -4,7 +4,7 @@
   "description": "RoCathon Hybrid Search Engine — ranks creators by context + performance",
   "main": "index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "echo 'no build step'",
     "start": "node --loader ts-node/esm src/index.ts",
     "dev": "nodemon --exec \"node --loader ts-node/esm\" src/index.ts",
     "migrate": "node --loader ts-node/esm src/scripts/migrate.ts",
@@ -25,14 +25,14 @@
     "openai": "^6.32.0",
     "pg": "^8.20.0",
     "pgvector": "^0.2.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3",
     "zod": "^4.3.6"
   },
   "devDependencies": {
     "@types/express": "^5.0.6",
     "@types/node": "^25.5.0",
     "@types/pg": "^8.18.0",
-    "nodemon": "^3.1.14",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "nodemon": "^3.1.14"
   }
 }

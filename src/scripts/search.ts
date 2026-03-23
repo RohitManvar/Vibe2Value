@@ -46,21 +46,20 @@ async function main() {
   const response = await searchFn({
     query: queryText,
     limit,
-    ...(category !== undefined && { category }),
+    ...(category !== undefined && { categories: [category] }),
   });
 
   console.log(`⚡ ${response.total} results in ${response.latency_ms}ms\n`);
-  console.log(`Weights: content=${response.weights_used.content_weight} | performance=${response.weights_used.performance_weight} | recency=${response.weights_used.recency_weight}\n`);
 
   console.log("─".repeat(90));
   console.log(
-    `${"Rank".padStart(4)} | ${"Username".padEnd(20)} | ${"Category".padEnd(12)} | ${"Relevance".padEnd(10)} | ${"Perf".padEnd(8)} | ${"Hybrid".padEnd(8)}`
+    `${"Rank".padStart(4)} | ${"Username".padEnd(24)} | ${"Semantic".padEnd(10)} | ${"Projected".padEnd(10)} | ${"Final".padEnd(8)}`
   );
   console.log("─".repeat(90));
 
   for (const r of response.results) {
     console.log(
-      `${String(r.rank).padStart(4)} | ${r.creator.username.padEnd(20)} | ${r.creator.category.padEnd(12)} | ${r.relevance_score.toFixed(4).padEnd(10)} | ${r.projection_score.toFixed(4).padEnd(8)} | ${r.hybrid_score.toFixed(4).padEnd(8)}`
+      `${String(r.rank).padStart(4)} | ${r.username.padEnd(24)} | ${r.scores.semantic_score.toFixed(4).padEnd(10)} | ${r.scores.projected_score.toFixed(4).padEnd(10)} | ${r.scores.final_score.toFixed(4).padEnd(8)}`
     );
   }
 
