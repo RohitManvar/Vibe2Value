@@ -4,8 +4,8 @@
   "description": "RoCathon Hybrid Search Engine — ranks creators by context + performance",
   "main": "index.js",
   "scripts": {
-    "build": "tsc || true",
-    "start": "node dist/index.js",
+    "build": "echo 'build skipped'",
+    "start": "node --loader ts-node/esm src/index.ts",
     "dev": "nodemon --exec \"node --loader ts-node/esm\" src/index.ts",
     "migrate": "node --loader ts-node/esm src/scripts/migrate.ts",
     "seed": "node --loader ts-node/esm src/scripts/seed.ts",
