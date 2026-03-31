@@ -9,8 +9,40 @@ async function main() {
   await initProjectionEngine();
 
   const app = express();
+
+  // CORS — allow Vercel frontend to reach this backend
+  app.use((req, res, next) => {
+    const origin = req.headers.origin as string | undefined;
+    const allowedOrigins = (process.env.ALLOWED_ORIGINS || "http://localhost:5173")
+      .split(",")
+      .map((o) => o.trim());
+    if (origin && allowedOrigins.includes(origin)) {
+      res.setHeader("Access-Control-Allow-Origin", origin);
+    }
+    res.setHeader("Access-Control-Allow-Methods", "GET,POST,OPTIONS");
+    res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+    if (req.method === "OPTIONS") {
+      res.sendStatus(204);
+      return;
+    }
+    next();
+  });
+
   app.use(express.json());
   app.use("/api", routes);
+
+  app.get("/", (_req, res) => {
+    res.json({
+      name: "Vibe2Value API",
+      version: "1.0.0",
+      status: "running",
+      endpoints: {
+        search: "POST /api/search",
+        meta:   "GET  /api/meta",
+        health: "GET  /api/health",
+      },
+    });
+  });
 
   app.listen(SERVER_PORT, () => {
     console.log(`\n✅ Server running at http://localhost:${SERVER_PORT}`);
