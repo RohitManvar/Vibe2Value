@@ -1,7 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  // API proxy: forwards /api/search to the Express backend
+  output: "standalone",
+  // API proxy: forwards /backend/* to the Express backend
   async rewrites() {
     return [
       {

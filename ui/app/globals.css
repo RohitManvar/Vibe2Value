@@ -130,3 +130,30 @@ body::before {
   border-color: rgba(5,150,105,0.6);
   box-shadow: 0 0 0 3px rgba(5,150,105,0.12);
 }
+
+/* Native select dropdown dark styling */
+select.input-field option {
+  background: #0f1117;
+  color: var(--fg);
+}
+
+/* Custom dropdown panel */
+.dropdown-panel {
+  background-color: #0d0d1a !important;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.8);
+}
+.dropdown-option {
+  background-color: transparent;
+  color: var(--fg);
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.dropdown-option:hover { background-color: rgba(255,255,255,0.06) !important; }
+.dropdown-option.active  { background-color: rgba(5,150,105,0.14) !important; color: var(--accent3); }

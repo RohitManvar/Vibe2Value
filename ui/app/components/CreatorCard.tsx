@@ -1,3 +1,7 @@
+"use client";
+
+import { useState, useRef, useEffect } from "react";
+import { Info, X } from "lucide-react";
 import type { RankedCreator } from "@/lib/types";
 
 const PLATFORM_COLORS: Record<string, string> = {
@@ -37,6 +41,59 @@ function ScoreRow({
   );
 }
 
+function ScoreExplainer({ scores, onClose }: { scores: RankedCreator["scores"]; onClose: () => void }) {
+  const ref = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    function handler(e: MouseEvent) {
+      if (ref.current && !ref.current.contains(e.target as Node)) onClose();
+    }
+    document.addEventListener("mousedown", handler);
+    return () => document.removeEventListener("mousedown", handler);
+  }, [onClose]);
+
+  return (
+    <div
+      ref={ref}
+      className="absolute right-0 top-8 z-50 w-72 rounded-2xl border border-[var(--accent)]/20 p-4 flex flex-col gap-3"
+      style={{ background: "#0d0d1a", boxShadow: "0 8px 32px rgba(0,0,0,0.7)" }}
+    >
+      <div className="flex items-center justify-between">
+        <p className="text-xs font-semibold text-[var(--fg)]">Score breakdown</p>
+        <button onClick={onClose} className="rounded-lg p-1 text-[var(--fg2)] hover:text-[var(--fg)] transition-colors">
+          <X size={13} />
+        </button>
+      </div>
+
+      <div className="flex flex-col gap-2.5">
+        <div>
+          <ScoreRow label="Semantic" value={scores.semantic_score} color="var(--accent3)" />
+          <p className="mt-1 text-[10px] text-[var(--fg2)] pl-[76px]">
+            How well this creator matches your query · <span className="text-[var(--fg)]">40% weight</span>
+          </p>
+        </div>
+        <div>
+          <ScoreRow label="Projected" value={scores.projected_score} color="var(--green)" />
+          <p className="mt-1 text-[10px] text-[var(--fg2)] pl-[76px]">
+            GMV × engagement × views × GPM · <span className="text-[var(--fg)]">60% weight</span>
+          </p>
+        </div>
+      </div>
+
+      <div className="rounded-xl bg-black/30 px-3 py-2.5 font-mono text-[11px] border border-white/5">
+        <span className="text-[var(--fg2)]">0.4 × </span>
+        <span className="text-[var(--accent3)]">{scores.semantic_score.toFixed(3)}</span>
+        <span className="text-[var(--fg2)]"> + 0.6 × </span>
+        <span className="text-[var(--green)]">{scores.projected_score.toFixed(3)}</span>
+        <span className="text-[var(--fg2)]"> = </span>
+        <span className="text-white font-bold">{scores.final_score.toFixed(3)}</span>
+      </div>
+
+      <p className="text-[10px] text-[var(--fg2)]/60">All scores are normalised to [0, 1]</p>
+    </div>
+  );
+}
+
 interface Props {
   creator: RankedCreator;
   style?: React.CSSProperties;
@@ -46,13 +103,12 @@ export default function CreatorCard({ creator, style }: Props) {
   const { username, bio, content_style_tags, metrics, scores, rank, platform, region, category } = creator;
   const pColor = PLATFORM_COLORS[platform] ?? "#888";
   const catEmoji = CATEGORY_EMOJIS[category] ?? "🎯";
-
-  // Avatar initials
   const initials = username.slice(0, 2).toUpperCase();
+  const [showExplainer, setShowExplainer] = useState(false);
 
   return (
     <div
-      className="glass glass-hover fade-up rounded-2xl p-5 flex flex-col gap-4 transition-all duration-300 hover:shadow-[0_8px_32px_rgba(124,58,237,0.12)] hover:-translate-y-0.5 cursor-default"
+      className="glass glass-hover fade-up rounded-2xl p-5 flex flex-col gap-4 transition-all duration-300 hover:shadow-[0_8px_32px_rgba(5,150,105,0.12)] hover:-translate-y-0.5 cursor-default"
       style={style}
     >
       {/* Header row */}
@@ -69,7 +125,6 @@ export default function CreatorCard({ creator, style }: Props) {
           <div>
             <div className="flex items-center gap-2">
               <p className="font-semibold text-[var(--fg)] text-sm">@{username}</p>
-              {/* Rank badge */}
               <span className="rounded-lg bg-white/8 px-1.5 py-0.5 text-[10px] font-bold text-[var(--fg2)]">
                 #{rank}
               </span>
@@ -93,15 +148,24 @@ export default function CreatorCard({ creator, style }: Props) {
           </div>
         </div>
 
-        {/* Final score */}
-        <div className="text-right shrink-0">
+        {/* Final score + explainer */}
+        <div className="relative text-right shrink-0">
           <p
             className="text-xl font-black"
             style={{ background: "linear-gradient(135deg, #fff, var(--accent3))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}
           >
             {scores.final_score.toFixed(3)}
           </p>
-          <p className="text-[10px] text-[var(--fg2)] mt-0.5">final score</p>
+          <button
+            onClick={(e) => { e.stopPropagation(); setShowExplainer((o) => !o); }}
+            className="flex items-center gap-1 mx-auto mt-0.5 text-[10px] text-[var(--fg2)] hover:text-[var(--accent3)] transition-colors"
+          >
+            <Info size={11} />
+            final score
+          </button>
+          {showExplainer && (
+            <ScoreExplainer scores={scores} onClose={() => setShowExplainer(false)} />
+          )}
         </div>
       </div>
 

@@ -1,12 +1,16 @@
 "use client";
 
-import { useState, useEffect, useCallback } from "react";
+import Link from "next/link";
+import { useSearchParams } from "next/navigation";
+import { useState, useEffect, useCallback, Suspense } from "react";
+import { SlidersHorizontal, AlertCircle, Map } from "lucide-react";
 import SearchBar from "./components/SearchBar";
 import BrandSelector from "./components/BrandSelector";
 import MethodToggle from "./components/MethodToggle";
 import CreatorCard from "./components/CreatorCard";
 import StatsBar from "./components/StatsBar";
 import FilterBar from "./components/FilterBar";
+import Tour from "./components/Tour";
 import type { SearchResponse, MetaResponse } from "@/lib/types";
 
 const EXAMPLES = [
@@ -24,7 +28,7 @@ function toggle(arr: string[], val: string) {
   return arr.includes(val) ? arr.filter((v) => v !== val) : [...arr, val];
 }
 
-export default function Home() {
+function HomeInner() {
   const [query, setQuery]             = useState("");
   const [brand, setBrand]             = useState("");
   const [method, setMethod]           = useState<"weighted" | "rrf">("weighted");
@@ -78,25 +82,52 @@ export default function Home() {
   }, [selPlatforms, selRegions, selCategories]);
 
   const activeFilters = selPlatforms.length + selRegions.length + selCategories.length;
+  const [filtersOpen, setFiltersOpen] = useState(false);
+  const [tourActive, setTourActive] = useState(false);
+  const [tourStep, setTourStep] = useState(0);
+
+  // Handle ?q= param from Tips page
+  const searchParams = useSearchParams();
+  useEffect(() => {
+    const q = searchParams.get("q");
+    if (q) { setQuery(q); handleSearch(q); }
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
+  // Auto-show tour on first visit
+  useEffect(() => {
+    if (typeof window !== "undefined" && !localStorage.getItem("tourSeen")) {
+      setTourActive(true);
+      localStorage.setItem("tourSeen", "true");
+    }
+  }, []);
 
   return (
     <div className="relative z-10 min-h-screen">
       {/* ── Navbar ── */}
       <nav className="sticky top-0 z-50 border-b border-[var(--border)] bg-[var(--bg)]/80 backdrop-blur-xl">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4">
+        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 sm:px-6 py-4">
           <div className="flex items-center gap-3">
             <span className="font-bold text-[var(--fg)]">Vibe2Value</span>
           </div>
-          <div className="flex items-center gap-2 text-xs text-[var(--fg2)]">
-            <div className="h-1.5 w-1.5 rounded-full bg-[var(--green)] shadow-[0_0_6px_var(--green)]" />
-            <span>{meta?.total.toLocaleString() ?? "—"} creators</span>
+          <div className="flex items-center gap-4">
+            <Link href="/tips" className="text-xs font-medium text-[var(--fg2)] hover:text-[var(--accent3)] transition-colors">
+              Tips
+            </Link>
+            <Link href="/about" className="text-xs font-medium text-[var(--fg2)] hover:text-[var(--accent3)] transition-colors">
+              About
+            </Link>
+            <div className="flex items-center gap-2 text-xs text-[var(--fg2)]">
+              <div className="h-1.5 w-1.5 rounded-full bg-[var(--green)] shadow-[0_0_6px_var(--green)]" />
+              <span>{meta?.total.toLocaleString() ?? "—"} creators</span>
+            </div>
           </div>
         </div>
       </nav>
 
-      <div className="mx-auto max-w-7xl px-6 pb-20">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 pb-20">
         {/* ── Hero ── */}
-        <div className="py-14 text-center flex flex-col items-center gap-4">
+        <div className="py-10 sm:py-14 text-center flex flex-col items-center gap-4">
           <div className="inline-flex items-center gap-2 rounded-full border border-[var(--accent)]/30 bg-[var(--accent)]/8 px-4 py-1.5 text-xs font-medium text-[var(--accent3)]">
             <span className="h-1.5 w-1.5 rounded-full bg-[var(--accent2)]" />
             Hybrid Semantic × Commercial Ranking
@@ -112,7 +143,24 @@ export default function Home() {
             <em className="text-[var(--fg)] not-italic font-medium"> and </em>
             commercial performance — not just follower count.
           </p>
+          <button
+            onClick={() => { setTourStep(0); setTourActive(true); }}
+            className="flex items-center gap-2 rounded-xl border border-[var(--border)] bg-white/5 px-4 py-2 text-xs font-medium text-[var(--fg2)] hover:border-[var(--accent)]/40 hover:text-[var(--accent3)] transition-all"
+          >
+            <Map size={13} />
+            Take a tour
+          </button>
         </div>
+
+        {/* Tour overlay */}
+        {tourActive && (
+          <Tour
+            step={tourStep}
+            onNext={() => setTourStep((s) => s + 1)}
+            onBack={() => setTourStep((s) => s - 1)}
+            onClose={() => setTourActive(false)}
+          />
+        )}
 
         {/* ── Stats bar ── */}
         <div className="mb-6">
@@ -162,17 +210,31 @@ export default function Home() {
         {/* ── Error ── */}
         {error && (
           <div className="mb-6 flex items-start gap-3 rounded-2xl border border-red-500/20 bg-red-500/8 px-5 py-4">
-            <svg className="mt-0.5 shrink-0 text-red-400" width="16" height="16" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
-              <circle cx="12" cy="12" r="10"/><path d="M12 8v4m0 4h.01"/>
-            </svg>
+            <AlertCircle size={16} className="mt-0.5 shrink-0 text-red-400" />
             <p className="text-sm text-red-400">{error}</p>
           </div>
         )}
 
+        {/* ── Mobile filter toggle ── */}
+        <div className="lg:hidden mb-4">
+          <button
+            onClick={() => setFiltersOpen((o) => !o)}
+            className="flex items-center gap-2 rounded-xl border border-[var(--border)] bg-white/5 px-4 py-2.5 text-sm font-medium text-[var(--fg)] transition-all hover:border-[var(--accent)]/40 hover:bg-[var(--accent)]/8"
+          >
+            <SlidersHorizontal size={16} />
+            Filters
+            {activeFilters > 0 && (
+              <span className="ml-1 rounded-full bg-[var(--accent)] px-2 py-0.5 text-[10px] font-bold text-white">
+                {activeFilters}
+              </span>
+            )}
+          </button>
+        </div>
+
         {/* ── Results area ── */}
-        <div className="flex gap-6 items-start">
+        <div className="flex flex-col lg:flex-row gap-6 items-start">
           {/* Sidebar */}
-          <aside className="w-64 shrink-0 sticky top-[73px]">
+          <aside className={`lg:w-64 lg:shrink-0 lg:sticky lg:top-[73px] w-full ${filtersOpen ? "block" : "hidden"} lg:block`}>
             <FilterBar
               meta={meta}
               selectedPlatforms={selPlatforms}
@@ -259,5 +321,13 @@ export default function Home() {
         Vibe2Value · Hybrid Creator Search · Built for RoCathon
       </footer>
     </div>
+  );
+}
+
+export default function Home() {
+  return (
+    <Suspense>
+      <HomeInner />
+    </Suspense>
   );
 }
