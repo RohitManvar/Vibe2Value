@@ -71,6 +71,12 @@ export default function Home() {
     }
   }, [query, brand, method, limit, selPlatforms, selRegions, selCategories]);
 
+  // Auto-search when filters change if a query is already set
+  useEffect(() => {
+    if (query.trim()) handleSearch();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [selPlatforms, selRegions, selCategories]);
+
   const activeFilters = selPlatforms.length + selRegions.length + selCategories.length;
 
   return (
