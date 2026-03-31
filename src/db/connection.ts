@@ -7,7 +7,10 @@ let pool: Pool | null = null;
 
 export function getPool(): Pool {
   if (!pool) {
-    pool = new Pool({ connectionString: DB_CONFIG.connectionString });
+    pool = new Pool({
+      connectionString: DB_CONFIG.connectionString,
+      ssl: { rejectUnauthorized: false },
+    });
   }
   return pool;
 }
