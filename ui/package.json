@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "node --max-old-space-size=4096 node_modules/next/dist/bin/next dev -p 5173",
-    "build": "node --max-old-space-size=4096 node_modules/next/dist/bin/next build",
+    "build": "next build",
     "start": "node --max-old-space-size=4096 node_modules/next/dist/bin/next start -p 8181",
     "lint": "next lint"
   },
