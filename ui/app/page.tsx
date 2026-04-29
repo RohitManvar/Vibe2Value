@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useState, useEffect, useCallback, Suspense } from "react";
-import { SlidersHorizontal, AlertCircle, Map } from "lucide-react";
+import { SlidersHorizontal, AlertCircle, Map, Library } from "lucide-react";
 import SearchBar from "./components/SearchBar";
 import BrandSelector from "./components/BrandSelector";
 import MethodToggle from "./components/MethodToggle";
@@ -294,10 +294,10 @@ function HomeInner() {
             {!result && !loading && !error && (
               <div className="flex flex-col items-center justify-center gap-5 py-28 text-center">
                 <div
-                  className="h-20 w-20 rounded-3xl flex items-center justify-center text-3xl"
+                  className="h-20 w-20 rounded-3xl flex items-center justify-center"
                   style={{ background: "linear-gradient(135deg, var(--accent)/10, var(--accent2)/5)", border: "1px solid var(--accent)/20" }}
                 >
-                  🔍
+                  <Library size={36} className="text-[var(--accent3)]" />
                 </div>
                 <div>
                   <p className="font-semibold text-[var(--fg)]">Start your creator search</p>

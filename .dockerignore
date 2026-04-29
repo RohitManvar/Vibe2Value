@@ -1,0 +1,14 @@
+node_modules/
+ui/
+.git/
+.env
+.env.local
+.claude/
+dist/
+.next/
+*.log
+docker-compose.yaml
+railway.toml
+README.md
+DESIGN.md
+submission.json
