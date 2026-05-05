@@ -232,7 +232,7 @@ function HomeInner() {
         </div>
 
         {/* ── Results area ── */}
-        <div className="flex flex-col lg:flex-row gap-6 items-start">
+        <div className="flex flex-col lg:flex-row gap-6 lg:items-start">
           {/* Sidebar */}
           <aside className={`lg:w-64 lg:shrink-0 lg:sticky lg:top-[73px] w-full ${filtersOpen ? "block" : "hidden"} lg:block`}>
             <FilterBar
