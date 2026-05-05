@@ -28,7 +28,7 @@ export default function SearchBar({ value, onChange, onSearch, loading }: Props)
       <button
         onClick={onSearch}
         disabled={loading || !value.trim()}
-        className="btn-glow shrink-0 rounded-2xl px-7 py-4 text-sm font-semibold text-white"
+        className="btn-glow shrink-0 rounded-2xl px-4 sm:px-7 py-4 text-sm font-semibold text-white"
       >
         {loading ? (
           <span className="flex items-center gap-2">

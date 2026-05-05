@@ -113,7 +113,7 @@ export default function CreatorCard({ creator, style }: Props) {
     >
       {/* Header row */}
       <div className="flex items-start justify-between gap-3">
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-3 min-w-0 flex-1">
           {/* Avatar */}
           <div
             className="h-11 w-11 shrink-0 rounded-2xl flex items-center justify-center text-sm font-bold text-white shadow-lg"
@@ -122,10 +122,10 @@ export default function CreatorCard({ creator, style }: Props) {
             {initials}
           </div>
 
-          <div>
-            <div className="flex items-center gap-2">
-              <p className="font-semibold text-[var(--fg)] text-sm">@{username}</p>
-              <span className="rounded-lg bg-white/8 px-1.5 py-0.5 text-[10px] font-bold text-[var(--fg2)]">
+          <div className="min-w-0 flex-1">
+            <div className="flex items-center gap-2 min-w-0">
+              <p className="font-semibold text-[var(--fg)] text-sm truncate">@{username}</p>
+              <span className="shrink-0 rounded-lg bg-white/8 px-1.5 py-0.5 text-[10px] font-bold text-[var(--fg2)]">
                 #{rank}
               </span>
             </div>

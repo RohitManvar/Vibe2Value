@@ -110,7 +110,7 @@ function HomeInner() {
           <div className="flex items-center gap-3">
             <span className="font-bold text-[var(--fg)]">Vibe2Value</span>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <Link href="/tips" className="text-xs font-medium text-[var(--fg2)] hover:text-[var(--accent3)] transition-colors">
               Tips
             </Link>
@@ -168,7 +168,7 @@ function HomeInner() {
         </div>
 
         {/* ── Search box ── */}
-        <div className="glass rounded-3xl p-6 mb-6 shadow-[0_0_60px_var(--glow2)]">
+        <div className="glass rounded-3xl p-4 sm:p-6 mb-6 shadow-[0_0_60px_var(--glow2)]">
           <SearchBar value={query} onChange={setQuery} onSearch={() => handleSearch()} loading={loading} />
 
           {/* Example chips */}

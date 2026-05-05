@@ -17,7 +17,7 @@ export default function StatsBar({ meta }: Props) {
   );
 
   return (
-    <div className="glass rounded-xl px-5 py-3 flex flex-wrap items-center gap-x-5 gap-y-2">
+    <div className="glass rounded-xl px-4 sm:px-5 py-3 flex flex-wrap items-center gap-x-3 sm:gap-x-5 gap-y-2">
       <div className="flex items-center gap-2 mr-2">
         <div className="h-2 w-2 rounded-full bg-[var(--green)] shadow-[0_0_8px_var(--green)]" />
         <span className="text-[11px] font-medium text-[var(--green)]">Live</span>
