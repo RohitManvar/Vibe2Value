@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 import { useState, useEffect, useCallback, Suspense } from "react";
-import { SlidersHorizontal, AlertCircle, Map, Search, Sparkles, Users } from "lucide-react";
+import { SlidersHorizontal, AlertCircle, Map, Library } from "lucide-react";
 import SearchBar from "./components/SearchBar";
 import BrandSelector from "./components/BrandSelector";
 import MethodToggle from "./components/MethodToggle";
@@ -293,20 +293,15 @@ function HomeInner() {
             {/* Empty state */}
             {!result && !loading && !error && (
               <div className="flex flex-col items-center justify-center gap-5 py-28 text-center">
-                <div className="relative group">
-                  <div className="absolute inset-0 rounded-3xl bg-[var(--accent)]/20 blur-xl transition-all duration-500 group-hover:bg-[var(--accent)]/30 group-hover:blur-2xl animate-pulse" />
-                  <div
-                    className="relative h-24 w-24 rounded-3xl flex items-center justify-center transition-transform duration-500 group-hover:scale-105 group-hover:-translate-y-1"
-                    style={{ background: "linear-gradient(135deg, rgba(5,150,105,0.15), rgba(16,185,129,0.05))", border: "1px solid rgba(16,185,129,0.3)", boxShadow: "0 8px 32px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255,255,255,0.1)" }}
-                  >
-                    <Search size={36} className="text-[var(--accent3)] drop-shadow-[0_0_12px_rgba(52,211,153,0.6)]" />
-                    <Sparkles size={16} className="absolute top-4 right-4 text-[var(--accent2)] animate-pulse" />
-                    <Users size={18} className="absolute bottom-4 left-4 text-[var(--accent)] opacity-70" />
-                  </div>
+                <div
+                  className="h-20 w-20 rounded-3xl flex items-center justify-center"
+                  style={{ background: "linear-gradient(135deg, var(--accent)/10, var(--accent2)/5)", border: "1px solid var(--accent)/20" }}
+                >
+                  <Library size={36} className="text-[var(--accent3)]" />
                 </div>
-                <div className="max-w-sm">
-                  <h3 className="text-xl font-bold text-[var(--fg)] mb-2">Start your creator search</h3>
-                  <p className="text-sm text-[var(--fg2)] leading-relaxed">
+                <div>
+                  <p className="font-semibold text-[var(--fg)]">Start your creator search</p>
+                  <p className="mt-1 text-sm text-[var(--fg2)]">
                     Type a query above or click an example to get started
                   </p>
                 </div>
